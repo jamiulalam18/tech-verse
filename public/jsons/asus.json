@@ -1,0 +1,200 @@
+[
+  {
+    "product_id": 1,
+    "brand_name": "ASUS Corporation",
+    "product_name": "ASUS ROG Zephyrus G14",
+    "product_image": [
+      "https://i.ibb.co/qrPcMHJ/ASUS-ROG-Zephyrus-G14-1.jpg",
+      "https://i.ibb.co/RQydMK4/ASUS-ROG-Zephyrus-G14-2.jpg"
+    ],
+    "product_category": "Laptop",
+    "product_price": 1499.99,
+    "product_rating": 4.9,
+    "product_short_description": "Powerful gaming laptop with AMD Ryzen processor and RTX graphics.",
+    "product_long_description": "Experience gaming like never before with the ASUS ROG Zephyrus G14. Featuring an AMD Ryzen processor, NVIDIA RTX graphics, and a high-refresh-rate display, it's designed for gamers who demand top-tier performance.",
+    "product_highlights": [
+      "14-inch QHD display with 120Hz refresh rate for smooth gaming",
+      "AMD Ryzen 9 5900HS processor for high-speed performance",
+      "NVIDIA GeForce RTX 3060 or 3070 GPU for realistic graphics",
+      "16GB or 32GB RAM options for seamless multitasking",
+      "Compact and lightweight design for portability",
+      "AniMe Matrix LED display on the lid for customization"
+    ]
+  },
+  {
+    "product_id": 2,
+    "brand_name": "ASUS Corporation",
+    "product_name": "ASUS ZenBook 14",
+    "product_image": [
+      "https://i.ibb.co/S3HrtSP/ASUS-Zen-Book-14-1.jpg",
+      "https://i.ibb.co/dWpbycP/ASUS-Zen-Book-14-2.jpg"
+    ],
+    "product_category": "Laptop",
+    "product_price": 999.99,
+    "product_rating": 4.7,
+    "product_short_description": "Ultra-slim laptop with NanoEdge display and powerful internals.",
+    "product_long_description": "Boost your productivity with the ASUS ZenBook 14. With a compact design, NanoEdge display, and high-performance components, it's the ideal laptop for professionals and creatives on the go.",
+    "product_highlights": [
+      "14-inch Full HD NanoEdge display with slim bezels",
+      "Available in Intel Core i5 or i7 processors for fast performance",
+      "Intel Iris Xe or NVIDIA GeForce MX450 graphics options",
+      "16GB RAM and up to 1TB PCIe SSD for rapid data access",
+      "ErgoLift hinge for comfortable typing and better cooling",
+      "NumberPad 2.0 for enhanced productivity"
+    ]
+  },
+  {
+    "product_id": 3,
+    "brand_name": "ASUS Corporation",
+    "product_name": "ASUS TUF Gaming A15",
+    "product_image": [
+      "https://i.ibb.co/WVKWtSN/ASUS-TUF-Gaming-A15-1.jpg",
+      "https://i.ibb.co/ZH8Y8XB/ASUS-TUF-Gaming-A15-2.jpg"
+    ],
+    "product_category": "Laptop",
+    "product_price": 1299.99,
+    "product_rating": 4.8,
+    "product_short_description": "Durable gaming laptop with AMD Ryzen processor and GTX graphics.",
+    "product_long_description": "Take your gaming to the next level with the ASUS TUF Gaming A15. Built to withstand intense gaming sessions, it features an AMD Ryzen processor, NVIDIA GTX graphics, and a high-refresh-rate display.",
+    "product_highlights": [
+      "15.6-inch Full HD display with 144Hz or 240Hz refresh rate",
+      "AMD Ryzen 7 or Ryzen 9 processor for responsive gameplay",
+      "NVIDIA GeForce GTX 1660 Ti or RTX 3060 graphics options",
+      "Up to 32GB RAM and 1TB SSD for rapid data access",
+      "Durable MIL-STD-810H military standard construction",
+      "RGB backlit keyboard for a customizable gaming experience"
+    ]
+  },
+  {
+    "product_id": 4,
+    "brand_name": "ASUS Corporation",
+    "product_name": "ASUS ROG Strix Scar 17",
+    "product_image": [
+      "https://i.ibb.co/DbLk8HS/ASUS-ROG-Strix-Scar-17-1.jpg",
+      "https://i.ibb.co/MSMmhYp/ASUS-ROG-Strix-Scar-17-2.jpg"
+    ],
+    "product_category": "Laptop",
+    "product_price": 2199.99,
+    "product_rating": 4.9,
+    "product_short_description": "High-performance gaming laptop with 17-inch display and RTX graphics.",
+    "product_long_description": "Dominate the battlefield with the ASUS ROG Strix Scar 17. Featuring a large 17-inch display, powerful RTX graphics, and advanced cooling, it's the ultimate gaming laptop for enthusiasts.",
+    "product_highlights": [
+      "17.3-inch Full HD or WQHD display with up to 360Hz refresh rate",
+      "Intel Core i7 or i9 processors for top-tier gaming performance",
+      "NVIDIA GeForce RTX 3070 or 3080 GPU for realistic visuals",
+      "Up to 64GB RAM and 2TB SSD for lightning-fast data access",
+      "Optical mechanical keyboard with per-key RGB lighting",
+      "Advanced cooling with liquid metal thermal compound"
+    ]
+  },
+  {
+    "product_id": 5,
+    "brand_name": "ASUS Corporation",
+    "product_name": "ASUS ROG Swift PG279Q",
+    "product_image": [
+      "https://i.ibb.co/JzDktfW/ASUS-ROG-Swift-PG279-Q-1.jpg",
+      "https://i.ibb.co/JFgcr7m/ASUS-ROG-Swift-PG279-Q-2.jpg"
+    ],
+    "product_category": "Monitor",
+    "product_price": 699.99,
+    "product_rating": 4.7,
+    "product_short_description": "27-inch gaming monitor with WQHD resolution and 165Hz refresh rate.",
+    "product_long_description": "Immerse yourself in gaming with the ASUS ROG Swift PG279Q. Featuring a high-resolution display, fast refresh rate, and NVIDIA G-Sync technology, it delivers smooth and responsive gameplay.",
+    "product_highlights": [
+      "27-inch WQHD IPS display for crisp and vibrant visuals",
+      "165Hz refresh rate and 4ms response time for smooth gaming",
+      "NVIDIA G-Sync technology for tear-free and stutter-free gameplay",
+      "ASUS Eye Care technology with blue light filter and flicker-free backlight",
+      "Ultra-slim bezels for a seamless multi-monitor setup",
+      "Adjustable stand with swivel, tilt, and height adjustments"
+    ]
+  },
+  {
+    "product_id": 6,
+    "brand_name": "ASUS Corporation",
+    "product_name": "ASUS ROG Rapture GT-AX11000",
+    "product_image": [
+      "https://i.ibb.co/GvHQg4D/ASUS-ROG-Rapture-GT-AX11000-1.jpg",
+      "https://i.ibb.co/qs4Rqvx/ASUS-ROG-Rapture-GT-AX11000-2.jpg"
+    ],
+    "product_category": "Router",
+    "product_price": 449.99,
+    "product_rating": 4.8,
+    "product_short_description": "Tri-band gaming router with Wi-Fi 6 support and ultra-fast speeds.",
+    "product_long_description": "Elevate your gaming experience with the ASUS ROG Rapture GT-AX11000. With ultra-fast Wi-Fi 6, tri-band technology, and gaming-focused features, it ensures low-latency connectivity for online gaming.",
+    "product_highlights": [
+      "Tri-band 802.11ax Wi-Fi with up to 11000Mbps data rate",
+      "1.8GHz quad-core processor for fast and responsive performance",
+      "Game Accelerator feature prioritizes gaming traffic for low latency",
+      "Triple-level game acceleration with Adaptive QoS, Game Radar, and VPN Fusion",
+      "AiMesh support for creating a seamless whole-home Wi-Fi network",
+      "ROG-themed gaming dashboard for easy network management"
+    ]
+  },
+  {
+    "product_id": 7,
+    "brand_name": "ASUS Corporation",
+    "product_name": "ASUS ROG Phone 5",
+    "product_image": [
+      "https://i.ibb.co/zRb25dS/ASUS-ROG-Phone-5-1.jpg",
+      "https://i.ibb.co/X8Mcs7N/ASUS-ROG-Phone-5-2.jpg"
+    ],
+    "product_category": "Smartphone",
+    "product_price": 999.99,
+    "product_rating": 4.9,
+    "product_short_description": "Gaming smartphone with Snapdragon 888, high-refresh-rate display, and advanced gaming features.",
+    "product_long_description": "Unleash the power of gaming with the ASUS ROG Phone 5. With a Qualcomm Snapdragon 888 processor, a high-refresh-rate display, and gaming-centric features, it's designed for mobile gamers who demand top-notch performance.",
+    "product_highlights": [
+      "6.78-inch AMOLED display with 144Hz refresh rate",
+      "Qualcomm Snapdragon 888 processor for flagship-level performance",
+      "Up to 16GB RAM and 256GB UFS 3.1 storage",
+      "64MP triple-camera system for versatile photography",
+      "AirTrigger 5 and ultrasonic sensors for precise gaming controls",
+      "6,000mAh battery with 65W fast charging"
+    ]
+  },
+  {
+    "product_id": 8,
+    "brand_name": "ASUS Corporation",
+    "product_name": "ASUS VivoBook S15",
+    "product_image": [
+      "https://i.ibb.co/9Y4LCHB/ASUS-Vivo-Book-S15-1.jpg",
+      "https://i.ibb.co/0KYHxTp/ASUS-Vivo-Book-S15-2.jpg"
+    ],
+    "product_category": "Laptop",
+    "product_price": 799.99,
+    "product_rating": 4.6,
+    "product_short_description": "Stylish and lightweight laptop for everyday productivity.",
+    "product_long_description": "Stay productive on the go with the ASUS VivoBook S15. Its sleek design, NanoEdge display, and powerful performance make it a perfect companion for work and entertainment.",
+    "product_highlights": [
+      "15.6-inch Full HD NanoEdge display with slim bezels",
+      "Available in Intel Core i5 or i7 processors for efficient multitasking",
+      "Intel UHD or NVIDIA GeForce MX250 graphics for enhanced visuals",
+      "8GB or 16GB RAM options for smooth performance",
+      "ErgoLift hinge for comfortable typing and improved cooling",
+      "Compact and lightweight design for portability"
+    ]
+  },
+  {
+    "product_id": 9,
+    "brand_name": "ASUS Corporation",
+    "product_name": "ASUS Dual GeForce RTX 3080",
+    "product_image": [
+      "https://i.ibb.co/CMCY2wm/ASUS-Dual-Ge-Force-RTX-3080-1.jpg",
+      "https://i.ibb.co/Y0WQ914/ASUS-Dual-Ge-Force-RTX-3080-2.jpg"
+    ],
+    "product_category": "Graphics Card",
+    "product_price": 899.99,
+    "product_rating": 4.8,
+    "product_short_description": "Powerful graphics card for high-performance gaming and content creation.",
+    "product_long_description": "Experience superior graphics performance with the ASUS Dual GeForce RTX 3080. Featuring NVIDIA's latest GPU architecture, high VRAM, and advanced cooling, it's designed for enthusiasts who demand the best.",
+    "product_highlights": [
+      "NVIDIA Ampere architecture for realistic graphics and AI processing",
+      "10GB GDDR6X VRAM for handling large textures and 3D models",
+      "Axial-tech fan design with dual 90mm fans for efficient cooling",
+      "Auto-Extreme Technology ensures precision manufacturing and reliability",
+      "GPU Tweak II software for intuitive performance tweaking",
+      "Supports real-time ray tracing for lifelike lighting and reflections"
+    ]
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "review_id": 1,
+    "user_name": "Michael Anderson",
+    "rating": 5,
+    "review_title": "Amazing Selection and Fast Shipping!",
+    "review_text": "I love this tech e-commerce platform! They have an incredible selection of the latest gadgets and electronics. The shipping is lightning fast, and the customer service is top-notch. Highly recommended!"
+  },
+  {
+    "review_id": 2,
+    "user_name": "Jessica Ramirez",
+    "rating": 4.5,
+    "review_title": "Great Prices and Deals",
+    "review_text": "Been shopping here for tech gear for a while now. The prices are competitive, and they often have great deals and discounts. The website is easy to navigate, making the shopping experience enjoyable."
+  },
+  {
+    "review_id": 3,
+    "user_name": "Brandon Walker",
+    "rating": 4,
+    "review_title": "Excellent Smart Home Selection",
+    "review_text": "I'm into smart home tech, and this platform has an excellent selection. From smart bulbs to security cameras, they have it all. The descriptions are detailed, helping me make informed choices."
+  },
+  {
+    "review_id": 4,
+    "user_name": "Emily Turner",
+    "rating": 4.8,
+    "review_title": "Gaming Paradise",
+    "review_text": "As a gamer, this is my go-to place for gaming gear. The variety of gaming laptops, consoles, and accessories is impressive. Prices are reasonable, and the delivery is quick. Happy customer!"
+  },
+  {
+    "review_id": 5,
+    "user_name": "Christopher Davis",
+    "rating": 4.5,
+    "review_title": "Audiophile's Delight",
+    "review_text": "For a music enthusiast like me, finding quality audio products is crucial. This platform has a fantastic range of headphones and speakers. The reviews and ratings help me make informed decisions."
+  },
+  {
+    "review_id": 6,
+    "user_name": "Ashley Martinez",
+    "rating": 4.2,
+    "review_title": "Always Up-to-Date",
+    "review_text": "I like being an early adopter of new tech, and this platform always has the latest releases. The pre-order process is smooth, and I've never had any issues with the deliveries."
+  },
+  {
+    "review_id": 7,
+    "user_name": "Joshua Carter",
+    "rating": 4.7,
+    "review_title": "User-Friendly Interface",
+    "review_text": "The website's user interface is intuitive and easy to navigate. I can quickly find the products I'm looking for, and the filters make it even easier. Thumbs up for the design!"
+  },
+  {
+    "review_id": 8,
+    "user_name": "Natalie White",
+    "rating": 4.3,
+    "review_title": "Reliable Tech Travel Companions",
+    "review_text": "As a digital nomad, having reliable tech gear is crucial. I've purchased my laptop, travel router, and noise-canceling earbuds from here. They've become my reliable travel companions."
+  },
+  {
+    "review_id": 9,
+    "user_name": "Justin Parker",
+    "rating": 4.6,
+    "review_title": "Efficient Collaboration Devices",
+    "review_text": "Our office upgraded to collaboration devices from this platform, and it's made our virtual meetings more efficient. The quality of the cameras and audio is impressive."
+  },
+  {
+    "review_id": 10,
+    "user_name": "Lauren Mitchell",
+    "rating": 5,
+    "review_title": "Tech for the Whole Family",
+    "review_text": "I shop here for tech that suits the whole family. From tablets for the kids to smart home devices for convenience, this platform has it all. Family-approved tech shopping!"
+  }
+]

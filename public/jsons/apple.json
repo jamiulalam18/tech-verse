@@ -1,0 +1,209 @@
+[
+  {
+    "product_id": 1,
+    "brand_name": "Apple Inc.",
+    "product_name": "MacBook Air",
+    "product_image": [
+      "https://i.ibb.co/vmSkff4/Mac-Book-Air-1.jpg",
+      "https://i.ibb.co/wc7vY7s/Mac-Book-Air-2.jpg",
+      "https://i.ibb.co/qy36q5w/Mac-Book-Air-3.jpg"
+    ],
+    "product_category": "Laptop",
+    "product_price": 999.99,
+    "product_rating": 4.8,
+    "product_short_description": "Ultra-thin and lightweight laptop with Apple M1 chip for fast performance.",
+    "product_long_description": "Experience the power of the Apple M1 chip in the MacBook Air. With a sleek design, Retina display, and long battery life, it's the ideal laptop for everyday tasks and creative work.",
+    "product_highlights": [
+      "13.3-inch Retina display with True Tone for vibrant visuals",
+      "Apple M1 chip with 8-core CPU and 7-core or 8-core GPU options",
+      "Up to 16GB unified memory for seamless multitasking",
+      "Up to 2TB SSD storage for fast data access",
+      "Magic Keyboard with scissor mechanism for comfortable typing",
+      "Fanless design for silent operation"
+    ]
+  },
+  {
+    "product_id": 2,
+    "brand_name": "Apple Inc.",
+    "product_name": "iPhone 13 Pro",
+    "product_image": [
+      "https://i.ibb.co/pn2Rs1w/i-Phone-13-Pro-1.jpg",
+      "https://i.ibb.co/FKRCDP4/i-Phone-13-Pro-2.jpg",
+      "https://i.ibb.co/Wf1s8tb/i-Phone-13-Pro-3.jpg"
+    ],
+    "product_category": "Smartphone",
+    "product_price": 1099.99,
+    "product_rating": 4.9,
+    "product_short_description": "Pro-level smartphone with advanced camera system and A15 Bionic chip.",
+    "product_long_description": "Capture stunning photos and enjoy powerful performance with the iPhone 13 Pro. Featuring a ProMotion display, Pro camera system, and 5G capability, it's the perfect choice for photography and productivity.",
+    "product_highlights": [
+      "6.1-inch Super Retina XDR display with ProMotion technology",
+      "Triple 12MP Ultra Wide, Wide, and Telephoto cameras with Night mode",
+      "A15 Bionic chip with Neural Engine for fast and efficient performance",
+      "Ceramic Shield front cover for enhanced durability",
+      "5G capable for high-speed internet connectivity",
+      "iOS 15 with App Library, Focus, and enhanced privacy features"
+    ]
+  },
+  {
+    "product_id": 3,
+    "brand_name": "Apple Inc.",
+    "product_name": "iPad Pro",
+    "product_image": [
+      "https://i.ibb.co/5nnVBmC/i-Pad-Pro-1.jpg",
+      "https://i.ibb.co/fx2Ct3H/i-Pad-Pro-2.jpg",
+      "https://i.ibb.co/JpXHpFn/i-Pad-Pro-3.jpg"
+    ],
+    "product_category": "Tablet",
+    "product_price": 799.99,
+    "product_rating": 4.7,
+    "product_short_description": "Powerful and versatile tablet with M1 chip and stunning Liquid Retina XDR display.",
+    "product_long_description": "Unlock new possibilities with the iPad Pro. Featuring the M1 chip, 12.9-inch Liquid Retina XDR display, and 5G capability, it's a powerhouse for creativity, productivity, and entertainment.",
+    "product_highlights": [
+      "12.9-inch Liquid Retina XDR display with ProMotion technology",
+      "Apple M1 chip with 8-core CPU and 8-core GPU for desktop-class performance",
+      "Up to 2TB of high-speed SSD storage",
+      "12MP Ultra Wide front camera with Center Stage",
+      "Thunderbolt and USB 4 support for versatile connectivity",
+      "Magic Keyboard and Apple Pencil support for enhanced productivity"
+    ]
+  },
+  {
+    "product_id": 4,
+    "brand_name": "Apple Inc.",
+    "product_name": "Apple Watch Series 7",
+    "product_image": [
+      "https://i.ibb.co/PhXdNqH/Apple-Watch-Series-7-1.jpg",
+      "https://i.ibb.co/6sKWKp3/Apple-Watch-Series-7-2.jpg",
+      "https://i.ibb.co/fph9wFx/Apple-Watch-Series-7-3.jpg"
+    ],
+    "product_category": "Smartwatch",
+    "product_price": 399.99,
+    "product_rating": 4.6,
+    "product_short_description": "Advanced smartwatch with larger, always-on Retina display and health features.",
+    "product_long_description": "Stay connected, informed, and motivated with the Apple Watch Series 7. With a larger display, faster charging, and new workout features, it's the perfect companion for a healthy and active lifestyle.",
+    "product_highlights": [
+      "Always-on Retina display with 20% more screen area than Series 6",
+      "Advanced health features, including ECG and blood oxygen monitoring",
+      "Up to 45% faster charging with 33% faster charging cable",
+      "Dust resistance and WR50 water resistance for durability",
+      "New cycling workout and fall detection features",
+      "WatchOS 8 with enhanced mindfulness app and redesigned Home app"
+    ]
+  },
+  {
+    "product_id": 5,
+    "brand_name": "Apple Inc.",
+    "product_name": "Mac mini",
+    "product_image": [
+      "https://i.ibb.co/k8zhkPG/Mac-mini-1.jpg",
+      "https://i.ibb.co/xhz3c4k/Mac-mini-2.jpg",
+      "https://i.ibb.co/tcLSR3b/Mac-mini-3.jpg"
+    ],
+    "product_category": "Desktop",
+    "product_price": 699.99,
+    "product_rating": 4.8,
+    "product_short_description": "Compact desktop computer with Apple M1 chip for fast and efficient performance.",
+    "product_long_description": "Experience the power of the Apple M1 chip in the Mac mini. With its compact design, versatile connectivity options, and blazing-fast performance, it's a powerhouse for a wide range of tasks.",
+    "product_highlights": [
+      "Apple M1 chip with 8-core CPU and 8-core GPU for exceptional performance",
+      "8GB or 16GB unified memory options for smooth multitasking",
+      "Up to 2TB SSD storage for fast data access",
+      "Two Thunderbolt/USB 4 ports, HDMI 2.0, and Gigabit Ethernet",
+      "Wi-Fi 6 and Bluetooth 5.0 for high-speed wireless connectivity",
+      "macOS Monterey with redesigned Safari, Focus, and Quick Note"
+    ]
+  },
+  {
+    "product_id": 6,
+    "brand_name": "Apple Inc.",
+    "product_name": "AirPods Pro",
+    "product_image": [
+      "https://i.ibb.co/yNvnDmp/Air-Pods-Pro-1.jpg",
+      "https://i.ibb.co/CV4w9Hd/Air-Pods-Pro-2.jpg",
+      "https://i.ibb.co/K2tGZtQ/Air-Pods-Pro-3.jpg"
+    ],
+    "product_category": "Wireless Earbuds",
+    "product_price": 249.99,
+    "product_rating": 4.7,
+    "product_short_description": "High-fidelity, noise-canceling earbuds with immersive sound and customizable fit.",
+    "product_long_description": "Immerse yourself in premium audio quality with the AirPods Pro. Featuring active noise cancellation, Transparency mode, and a customizable fit, they deliver an unparalleled listening experience.",
+    "product_highlights": [
+      "Adaptive EQ for immersive sound quality",
+      "Active noise cancellation with Transparency mode",
+      "Customizable silicone ear tips for a comfortable and secure fit",
+      "Sweat and water resistance for workouts and outdoor activities",
+      "H1 chip for seamless Apple device integration",
+      "Qi-compatible wireless charging case for convenience"
+    ]
+  },
+  {
+    "product_id": 7,
+    "brand_name": "Apple Inc.",
+    "product_name": "iMac",
+    "product_image": [
+      "https://i.ibb.co/8DkZwN3/iMac-1.jpg",
+      "https://i.ibb.co/W0mBWmq/iMac-2.jpg",
+      "https://i.ibb.co/vLc4kmB/iMac-3.jpg"
+    ],
+    "product_category": "Desktop",
+    "product_price": 1299.99,
+    "product_rating": 4.8,
+    "product_short_description": "All-in-one desktop computer with vibrant 4.5K Retina display and Apple M1 chip.",
+    "product_long_description": "Elevate your desktop experience with the iMac. Featuring a 4.5K Retina display, Apple M1 chip, and a range of vibrant colors, it's a powerful and stylish addition to any workspace.",
+    "product_highlights": [
+      "24-inch 4.5K Retina display with P3 wide color gamut",
+      "Apple M1 chip with 8-core CPU and 8-core GPU for remarkable performance",
+      "Up to 16GB unified memory and up to 2TB SSD storage",
+      "Immersive audio with six-speaker sound system and spatial audio support",
+      "Two Thunderbolt/USB 4 ports and additional USB-C ports",
+      "macOS Monterey with redesigned apps and improved system features"
+    ]
+  },
+  {
+    "product_id": 8,
+    "brand_name": "Apple Inc.",
+    "product_name": "Apple TV 4K",
+    "product_image": [
+      "https://i.ibb.co/26cxFcw/Apple-TV-4-K-1.jpg",
+      "https://i.ibb.co/4TCVWJj/Apple-TV-4-K-2.jpg",
+      "https://i.ibb.co/2Zn8nq5/Apple-TV-4-K-3.jpg"
+    ],
+    "product_category": "Media Player",
+    "product_price": 179.99,
+    "product_rating": 4.7,
+    "product_short_description": "High-performance media player with 4K HDR support and Apple-designed chip.",
+    "product_long_description": "Transform your entertainment experience with Apple TV 4K. Enjoy stunning visuals, immersive audio, and access to a vast library of content with the power of Apple's custom-designed chip.",
+    "product_highlights": [
+      "4K High Dynamic Range (Dolby Vision and HDR10) for lifelike visuals",
+      "Apple-designed A12 Bionic chip for smooth and responsive performance",
+      "Siri Remote for intuitive navigation and voice control",
+      "Apple Fitness+ and Apple Arcade support for additional entertainment",
+      "Dolby Atmos for immersive, theater-like audio experience",
+      "Access to a wide range of streaming services and apps"
+    ]
+  },
+  {
+    "product_id": 9,
+    "brand_name": "Apple Inc.",
+    "product_name": "Beats Studio Buds",
+    "product_image": [
+      "https://i.ibb.co/RDtDmnF/Beats-Studio-Buds-1.jpg",
+      "https://i.ibb.co/qpbSqh4/Beats-Studio-Buds-2.jpg",
+      "https://i.ibb.co/L53xY5T/Beats-Studio-Buds-3.jpg"
+    ],
+    "product_category": "Wireless Earbuds",
+    "product_price": 149.99,
+    "product_rating": 4.6,
+    "product_short_description": "True wireless earbuds with active noise cancellation and sweat-resistant design.",
+    "product_long_description": "Immerse yourself in music with the Beats Studio Buds. These true wireless earbuds feature active noise cancellation, a comfortable fit, and sweat resistance, making them perfect for workouts and daily use.",
+    "product_highlights": [
+      "Active Noise Cancellation for immersive sound experience",
+      "Custom acoustic platform for clear, balanced sound",
+      "Sweat and water-resistant design for workouts and active lifestyles",
+      "Up to 8 hours of listening time (up to 24 hours with charging case)",
+      "Intuitive touch controls for music playback and calls",
+      "Compatible with Apple and Android devices for versatile use"
+    ]
+  }
+]

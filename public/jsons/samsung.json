@@ -1,0 +1,178 @@
+[
+  {
+    "product_id": 1,
+    "brand_name": "Samsung Electronics Co., Ltd.",
+    "product_name": "Samsung Galaxy S21 Ultra",
+    "product_image": [
+      "https://i.ibb.co/WtsX1Xh/Samsung-Galaxy-S21-Ultra-1.jpg",
+      "https://i.ibb.co/ZXqDPwJ/Samsung-Galaxy-S21-Ultra-2.jpg"
+    ],
+    "product_category": "Smartphone",
+    "product_price": 1199.99,
+    "product_rating": 4.9,
+    "product_short_description": "Flagship smartphone with 108MP camera, 5,000mAh battery, and S Pen support.",
+    "product_long_description": "Experience the pinnacle of smartphone technology with the Samsung Galaxy S21 Ultra. Featuring a stunning 108MP camera, 5,000mAh battery, and S Pen support, it's designed for users who demand the best.",
+    "product_highlights": [
+      "6.8-inch Dynamic AMOLED 2X display with WQHD+ resolution",
+      "108MP Quad Camera with 100x Space Zoom for versatile photography",
+      "Exynos 2100 or Snapdragon 888 chipset for powerful performance",
+      "5,000mAh battery with 25W fast charging and 15W wireless charging",
+      "S Pen support for precise input and creative possibilities",
+      "5G connectivity for high-speed internet and seamless multitasking"
+    ]
+  },
+  {
+    "product_id": 2,
+    "brand_name": "Samsung Electronics Co., Ltd.",
+    "product_name": "Samsung Galaxy Tab S7+",
+    "product_image": [
+      "https://i.ibb.co/q9fgffV/Samsung-Galaxy-Tab-S7-1.jpg",
+      "https://i.ibb.co/gWDN73N/Samsung-Galaxy-Tab-S7-2.jpg"
+    ],
+    "product_category": "Tablet",
+    "product_price": 849.99,
+    "product_rating": 4.8,
+    "product_short_description": "Premium Android tablet with 12.4-inch Super AMOLED display and S Pen included.",
+    "product_long_description": "Enhance your productivity and entertainment with the Samsung Galaxy Tab S7+. Featuring a large Super AMOLED display, powerful internals, and S Pen integration, it's the ultimate Android tablet experience.",
+    "product_highlights": [
+      "12.4-inch Super AMOLED display with 2800 x 1752 pixels resolution",
+      "Qualcomm Snapdragon 865 Plus for smooth multitasking and gaming",
+      "Up to 8GB RAM and 256GB internal storage, expandable via microSD",
+      "Dual rear cameras (13MP + 5MP) and 8MP front camera for versatile photography",
+      "S Pen included with low latency for note-taking and creative tasks",
+      "7,040mAh battery with 45W fast charging support"
+    ]
+  },
+  {
+    "product_id": 3,
+    "brand_name": "Samsung Electronics Co., Ltd.",
+    "product_name": "Samsung Odyssey G7",
+    "product_image": [
+      "https://i.ibb.co/kSm95Yg/Samsung-Odyssey-G7-1.jpg",
+      "https://i.ibb.co/KsCjPHm/Samsung-Odyssey-G7-2.jpg"
+    ],
+    "product_category": "Monitor",
+    "product_price": 699.99,
+    "product_rating": 4.7,
+    "product_short_description": "Curved gaming monitor with QHD resolution, 240Hz refresh rate, and 1ms response time.",
+    "product_long_description": "Immerse yourself in gaming with the Samsung Odyssey G7. With its curved QHD display, high refresh rate, and fast response time, it's designed to deliver a smooth and responsive gaming experience.",
+    "product_highlights": [
+      "27-inch QLED curved display with 2560 x 1440 pixels resolution",
+      "240Hz refresh rate and 1ms response time for fast and fluid gameplay",
+      "NVIDIA G-Sync and AMD FreeSync Premium Pro for tear-free gaming",
+      "Infinity Core Lighting for customizable RGB lighting effects",
+      "HDR600 and 1000R curvature for vibrant colors and immersive visuals",
+      "Multiple connectivity options including HDMI, DisplayPort, and USB"
+    ]
+  },
+  {
+    "product_id": 4,
+    "brand_name": "Samsung Electronics Co., Ltd.",
+    "product_name": "Samsung Galaxy Buds Pro",
+    "product_image": [
+      "https://i.ibb.co/WPSq56D/Samsung-Galaxy-Buds-Pro-1.jpg",
+      "https://i.ibb.co/0rHBb8C/Samsung-Galaxy-Buds-Pro-2.jpg"
+    ],
+    "product_category": "Wireless Earbuds",
+    "product_price": 199.99,
+    "product_rating": 4.6,
+    "product_short_description": "True wireless earbuds with 360 Audio, ANC, and water-resistant design.",
+    "product_long_description": "Immerse yourself in premium audio with the Samsung Galaxy Buds Pro. Featuring 360 Audio, Active Noise Cancellation, and a water-resistant design, they deliver an exceptional listening experience.",
+    "product_highlights": [
+      "Two-way speakers for rich and immersive sound quality",
+      "Intelligent Active Noise Cancellation for an uninterrupted listening experience",
+      "360 Audio for a realistic and cinematic audio experience",
+      "IPX7 water resistance for protection against sweat and water splashes",
+      "Up to 8 hours of playback, extendable to 28 hours with the charging case",
+      "Voice pickup unit for clear calls even in noisy environments"
+    ]
+  },
+  {
+    "product_id": 5,
+    "brand_name": "Samsung Electronics Co., Ltd.",
+    "product_name": "Samsung Q90T QLED TV",
+    "product_image": [
+      "https://i.ibb.co/J260FmD/Samsung-Q90-T-QLED-TV-1.jpg",
+      "https://i.ibb.co/NxSm4MY/Samsung-Q90-T-QLED-TV-2.jpg"
+    ],
+    "product_category": "Smart TV",
+    "product_price": 1799.99,
+    "product_rating": 4.8,
+    "product_short_description": "65-inch QLED 4K UHD TV with Quantum HDR, Direct Full Array, and Object Tracking Sound+.",
+    "product_long_description": "Elevate your home entertainment with the Samsung Q90T QLED TV. Featuring Quantum HDR, Direct Full Array, and Object Tracking Sound+, it delivers stunning visuals and immersive audio for a cinematic experience.",
+    "product_highlights": [
+      "65-inch QLED 4K UHD display with Quantum HDR 16X for lifelike colors",
+      "Direct Full Array 16X for precise control of backlighting for deep blacks",
+      "Quantum Processor 4K for AI-driven optimization of content",
+      "Adaptive Picture for automatic adjustment to ambient lighting conditions",
+      "Object Tracking Sound+ for a 3D audio experience that follows the action",
+      "Tizen operating system for a seamless and intuitive smart TV experience"
+    ]
+  },
+  {
+    "product_id": 6,
+    "brand_name": "Samsung Electronics Co., Ltd.",
+    "product_name": "Samsung Galaxy Watch 4",
+    "product_image": [
+      "https://i.ibb.co/tMBSH2K/Samsung-Galaxy-Watch-2.jpg",
+      "https://i.ibb.co/r3Mhb6W/Samsung-Galaxy-Watch-4-1.jpg"
+    ],
+    "product_category": "Smartwatch",
+    "product_price": 249.99,
+    "product_rating": 4.7,
+    "product_short_description": "Advanced smartwatch with Wear OS, body composition analysis, and blood pressure monitoring.",
+    "product_long_description": "Stay connected and prioritize your health with the Samsung Galaxy Watch 4. Featuring Wear OS, body composition analysis, and blood pressure monitoring, it's a comprehensive smartwatch for the modern lifestyle.",
+    "product_highlights": [
+      "Available in 40mm and 44mm sizes with AMOLED display",
+      "Body composition analysis for insights into your fitness and health",
+      "Advanced sleep tracking and stress management features",
+      "Built-in GPS for accurate tracking of outdoor activities",
+      "Blood pressure monitoring for proactive heart health management",
+      "Wear OS with access to a wide range of apps and watch faces"
+    ]
+  },
+  {
+    "product_id": 7,
+    "brand_name": "Samsung Electronics Co., Ltd.",
+    "product_name": "Samsung 980 PRO NVMe SSD",
+    "product_image": [
+      "https://i.ibb.co/MDF2pp4/Samsung-980-PRO-NVMe-SSD-1.jpg",
+      "https://i.ibb.co/25NS4rj/Samsung-980-PRO-NVMe-SSD-2.jpg"
+    ],
+    "product_category": "Storage",
+    "product_price": 149.99,
+    "product_rating": 4.8,
+    "product_short_description": "High-performance NVMe SSD with PCIe Gen4 support for fast data access.",
+    "product_long_description": "Upgrade your storage with the Samsung 980 PRO NVMe SSD. With PCIe Gen4 support, it delivers exceptional read and write speeds for quick data access, making it ideal for gaming and content creation.",
+    "product_highlights": [
+      "Available in capacities of 250GB, 500GB, and 1TB",
+      "Sequential read speeds of up to 7,000 MB/s for rapid data access",
+      "Sequential write speeds of up to 5,000 MB/s for efficient file transfers",
+      "NVMe interface for enhanced performance and responsiveness",
+      "Reliable and durable design with a five-year limited warranty",
+      "Ideal for gaming, 4K content creation, and data-intensive tasks"
+    ]
+  },
+  {
+    "product_id": 8,
+    "brand_name": "Samsung Electronics Co., Ltd.",
+    "product_name": "Samsung CHG90 QLED Gaming Monitor",
+    "product_image": [
+      "https://i.ibb.co/CVhMdR6/Samsung-CHG90-QLED-Gaming-Monitor-1.jpg",
+      "https://i.ibb.co/W5V331J/Samsung-CHG90-QLED-Gaming-Monitor-2.jpg"
+    ],
+    "product_category": "Monitor",
+    "product_price": 999.99,
+    "product_rating": 4.7,
+    "product_short_description": "49-inch QLED gaming monitor with 32:9 aspect ratio, 144Hz refresh rate, and AMD FreeSync 2.",
+    "product_long_description": "Immerse yourself in gaming with the Samsung CHG90 QLED Gaming Monitor. With its expansive 49-inch display, 32:9 aspect ratio, and features like a 144Hz refresh rate and AMD FreeSync 2, it's designed for a truly immersive gaming experience.",
+    "product_highlights": [
+      "49-inch QLED curved display with 3840 x 1080 pixels resolution",
+      "32:9 aspect ratio for an expansive and immersive gaming experience",
+      "144Hz refresh rate and 1ms response time for smooth and responsive gameplay",
+      "AMD FreeSync 2 for tear-free and stutter-free gaming",
+      "Multiple game modes and customizable RGB lighting for gaming aesthetics",
+      "Adjustable stand for personalized viewing comfort"
+    ]
+  }
+]

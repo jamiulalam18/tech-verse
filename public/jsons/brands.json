@@ -1,0 +1,39 @@
+[
+    {
+      "brand_id": 1,
+      "brand_name": "Apple Inc.",
+      "brand_logo": "https://i.ibb.co/WWFzv83/apple-logo-1.jpg",
+      "brand_main_location": "Cupertino, California, USA"
+    },
+    {
+      "brand_id": 2,
+      "brand_name": "Samsung Electronics Co., Ltd.",
+      "brand_logo": "https://i.ibb.co/Bgz5HKc/samsung-logo-1.jpg",
+      "brand_main_location": "Suwon, South Korea"
+    },
+    {
+      "brand_id": 3,
+      "brand_name": "Huawei Technologies Co., Ltd.",
+      "brand_logo": "https://i.ibb.co/bRbrdT1/huawei-logo-1.jpg",
+      "brand_main_location": "Shenzhen, Guangdong, China"
+    },
+    {
+      "brand_id": 4,
+      "brand_name": "Microsoft Corporation",
+      "brand_logo": "https://i.ibb.co/x1tWc0w/microsoft-logo-1.jpg",
+      "brand_main_location": "Redmond, Washington, USA"
+    },
+    {
+      "brand_id": 5,
+      "brand_name": "Google LLC",
+      "brand_logo": "https://i.ibb.co/Dr4n4w7/google-logo-1.jpg",
+      "brand_main_location": "Mountain View, California, USA"
+    },
+    {
+      "brand_id": 6,
+      "brand_name": "ASUS Corporation",
+      "brand_logo": "https://i.ibb.co/0FDRF22/asus-logo-1.jpg",
+      "brand_main_location": "Taipei, Taiwan"
+    }
+  ]
+  

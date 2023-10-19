@@ -1,0 +1,176 @@
+[
+  {
+    "product_id": 1,
+    "brand_name": "Huawei Technologies Co., Ltd.",
+    "product_name": "Huawei P40 Pro",
+    "product_image": [
+      "https://i.ibb.co/DGG2xYy/Huawei-P40-Pro-2.jpg",
+      "https://i.ibb.co/y071ZPm/Huawei-P40-Pro-1.jpg"
+    ],
+    "product_category": "Smartphone",
+    "product_price": 899.99,
+    "product_rating": 4.8,
+    "product_short_description": "Flagship smartphone with Leica quad-camera system and Kirin 990 chipset.",
+    "product_long_description": "Capture the world in stunning detail with the Huawei P40 Pro. Featuring a Leica quad-camera system, Kirin 990 chipset, and a sleek design, it's the perfect companion for mobile photography enthusiasts.",
+    "product_highlights": [
+      "6.58-inch Overflow Display with 90Hz refresh rate for smooth visuals",
+      "Leica quad-camera system with 50MP main sensor, 40MP ultra-wide, 12MP periscope telephoto, and 3D depth-sensing cameras",
+      "Kirin 990 5G chipset for powerful and efficient performance",
+      "Up to 512GB of expandable storage via NM (Nano Memory) card",
+      "4200mAh battery with 40W wired and 27W wireless SuperCharge",
+      "EMUI 10.1 based on Android 10 for a feature-rich user experience"
+    ]
+  },
+  {
+    "product_id": 2,
+    "brand_name": "Huawei Technologies Co., Ltd.",
+    "product_name": "Huawei MateBook X Pro",
+    "product_image": "matebook_x_pro_image_url",
+    "product_category": "Laptop",
+    "product_price": 1499.99,
+    "product_rating": 4.7,
+    "product_short_description": "Ultra-slim laptop with 3K touchscreen, NVIDIA GeForce MX250 GPU, and Dolby Atmos sound.",
+    "product_long_description": "Experience performance and portability with the Huawei MateBook X Pro. Featuring a 3K touchscreen, dedicated GPU, and immersive audio, it's designed for professionals and creatives on the go.",
+    "product_highlights": [
+      "13.9-inch 3K LTPS touchscreen with 91% screen-to-body ratio",
+      "10th Gen Intel Core i5 or i7 processor for seamless multitasking",
+      "NVIDIA GeForce MX250 GPU for enhanced graphics performance",
+      "16GB RAM and up to 1TB PCIe SSD for fast and efficient storage",
+      "Pop-up webcam hidden in the keyboard for privacy protection",
+      "14-hour battery life and fast charging support for all-day productivity"
+    ]
+  },
+  {
+    "product_id": 3,
+    "brand_name": "Huawei Technologies Co., Ltd.",
+    "product_name": "Huawei Watch GT 3",
+    "product_image": "watch_gt_3_image_url",
+    "product_category": "Smartwatch",
+    "product_price": 249.99,
+    "product_rating": 4.6,
+    "product_short_description": "Stylish smartwatch with 1.43-inch AMOLED display, SpO2 monitoring, and two-week battery life.",
+    "product_long_description": "Stay connected and prioritize your health with the Huawei Watch GT 3. Featuring a vibrant AMOLED display, comprehensive health tracking, and long battery life, it's a versatile smartwatch for active lifestyles.",
+    "product_highlights": [
+      "1.43-inch AMOLED display with 466 x 466 pixels resolution",
+      "Real-time heart rate monitoring and sleep tracking for health insights",
+      "SpO2 monitoring for blood oxygen level measurements",
+      "HUAWEI TruSeen 4.0+ for accurate fitness and exercise tracking",
+      "Up to 100 workout modes for versatile fitness routines",
+      "Two-week battery life and fast charging for minimal downtime"
+    ]
+  },
+  {
+    "product_id": 4,
+    "brand_name": "Huawei Technologies Co., Ltd.",
+    "product_name": "Huawei MatePad Pro",
+    "product_image": "matepad_pro_image_url",
+    "product_category": "Tablet",
+    "product_price": 699.99,
+    "product_rating": 4.8,
+    "product_short_description": "High-performance tablet with 10.8-inch 2K display, M-Pencil support, and Kirin 990 chipset.",
+    "product_long_description": "Unleash your creativity and productivity with the Huawei MatePad Pro. Featuring a stunning 2K display, M-Pencil support, and powerful internals, it's an ideal tablet for work, entertainment, and creativity.",
+    "product_highlights": [
+      "10.8-inch 2K display with DCI-P3 wide color gamut for vivid visuals",
+      "Kirin 990 chipset for smooth multitasking and efficient performance",
+      "M-Pencil support with 4096 levels of pressure sensitivity",
+      "HarmonyOS for seamless multitasking and cross-device collaboration",
+      "Quad-speaker system tuned by Harman Kardon for immersive audio",
+      "7250mAh battery with 40W wired and 27W wireless charging"
+    ]
+  },
+  {
+    "product_id": 5,
+    "brand_name": "Huawei Technologies Co., Ltd.",
+    "product_name": "Huawei FreeBuds Pro",
+    "product_image": "freebuds_pro_image_url",
+    "product_category": "Wireless Earbuds",
+    "product_price": 169.99,
+    "product_rating": 4.7,
+    "product_short_description": "True wireless earbuds with intelligent dynamic ANC, dual connection, and studio-quality sound.",
+    "product_long_description": "Immerse yourself in high-quality audio with the Huawei FreeBuds Pro. Featuring intelligent dynamic ANC, dual connection, and a comfortable fit, they deliver an exceptional listening experience for music and calls.",
+    "product_highlights": [
+      "Intelligent dynamic Active Noise Cancellation for immersive sound",
+      "Dual connection with seamless switching between devices",
+      "Studio-quality sound with 11mm dynamic drivers",
+      "Touch-sensitive controls for easy playback and call management",
+      "Awareness mode for staying aware of your surroundings",
+      "Up to 30 hours of playback with the charging case"
+    ]
+  },
+  {
+    "product_id": 6,
+    "brand_name": "Huawei Technologies Co., Ltd.",
+    "product_name": "Huawei MateBook 14",
+    "product_image": "matebook_14_image_url",
+    "product_category": "Laptop",
+    "product_price": 1099.99,
+    "product_rating": 4.6,
+    "product_short_description": "Sleek and powerful laptop with 2K FullView display, AMD Ryzen 5 or 7 processor, and slim design.",
+    "product_long_description": "Elevate your computing experience with the Huawei MateBook 14. Featuring a 2K FullView display, AMD Ryzen processor options, and a slim, lightweight design, it's a versatile laptop for work and entertainment.",
+    "product_highlights": [
+      "14-inch 2K FullView display with slim bezels for an immersive visual experience",
+      "AMD Ryzen 5 or Ryzen 7 processor options for powerful performance",
+      "16GB RAM and up to 512GB PCIe SSD for efficient multitasking",
+      "HUAWEI Shark Fin Fans 2.0 for effective cooling during intensive tasks",
+      "56Wh battery with fast charging for all-day productivity",
+      "Compact and lightweight design for on-the-go use"
+    ]
+  },
+  {
+    "product_id": 7,
+    "brand_name": "Huawei Technologies Co., Ltd.",
+    "product_name": "Huawei Sound X",
+    "product_image": "sound_x_image_url",
+    "product_category": "Smart Speaker",
+    "product_price": 299.99,
+    "product_rating": 4.7,
+    "product_short_description": "Premium smart speaker with Hi-Res audio, Devialet dual-subwoofer design, and smart connectivity.",
+    "product_long_description": "Immerse yourself in high-fidelity sound with the Huawei Sound X. Featuring a Devialet dual-subwoofer design, Hi-Res audio support, and smart connectivity, it's a premium addition to any home audio setup.",
+    "product_highlights": [
+      "Devialet dual-subwoofer design for deep and powerful bass",
+      "Hi-Res audio certification for studio-quality sound reproduction",
+      "Smart connectivity with Huawei Share for seamless device pairing",
+      "Touch-sensitive controls for easy playback and volume adjustment",
+      "360-degree surround sound for an immersive audio experience",
+      "Compatible with Huawei AI Life app for advanced audio settings"
+    ]
+  },
+  {
+    "product_id": 8,
+    "brand_name": "Huawei Technologies Co., Ltd.",
+    "product_name": "Huawei Nova 8 Pro",
+    "product_image": "nova_8_pro_image_url",
+    "product_category": "Smartphone",
+    "product_price": 699.99,
+    "product_rating": 4.6,
+    "product_short_description": "Stylish smartphone with 6.72-inch curved OLED display, 64MP quad-camera, and 120Hz refresh rate.",
+    "product_long_description": "Experience style and performance with the Huawei Nova 8 Pro. Featuring a curved OLED display, versatile quad-camera system, and a smooth 120Hz refresh rate, it's a smartphone that stands out in both design and capabilities.",
+    "product_highlights": [
+      "6.72-inch curved OLED display with 2676 x 1236 pixels resolution",
+      "64MP quad-camera system with SuperZoom and Super Night Mode",
+      "Kirin 985 5G chipset for fast and efficient performance",
+      "Dual selfie cameras (32MP + 16MP) for stunning selfies",
+      "120Hz refresh rate for smooth visuals and responsive touch",
+      "66W Huawei SuperCharge for quick and efficient battery charging"
+    ]
+  },
+  {
+    "product_id": 9,
+    "brand_name": "Huawei Technologies Co., Ltd.",
+    "product_name": "Huawei MateStation X",
+    "product_image": "matestation_x_image_url",
+    "product_category": "Desktop",
+    "product_price": 1299.99,
+    "product_rating": 4.8,
+    "product_short_description": "Sleek desktop computer with AMD Ryzen 7 processor, NVIDIA GeForce GTX 1650 GPU, and compact design.",
+    "product_long_description": "Power up your productivity with the Huawei MateStation X. Featuring an AMD Ryzen 7 processor, NVIDIA GeForce GTX 1650 GPU, and a sleek, compact design, it's a stylish addition to any workspace.",
+    "product_highlights": [
+      "AMD Ryzen 7 5800H processor for powerful multitasking and content creation",
+      "NVIDIA GeForce GTX 1650 GPU for smooth graphics performance",
+      "16GB RAM and 512GB PCIe SSD for fast and efficient storage",
+      "Compact design with wireless charging pad for a clutter-free workspace",
+      "Multiple USB-C ports for versatile connectivity options",
+      "Pop-up webcam for privacy and convenience"
+    ]
+  }
+]

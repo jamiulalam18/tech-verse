@@ -1,0 +1,200 @@
+[
+  {
+    "product_id": 1,
+    "brand_name": "Google LLC",
+    "product_name": "Google Pixel 6 Pro",
+    "product_image": [
+      "https://i.ibb.co/VTKJYp9/Google-Pixel-6-Pro-1.jpg",
+      "https://i.ibb.co/x7PJP8Y/Google-Pixel-6-Pro-2.jpg"
+    ],
+    "product_category": "Smartphone",
+    "product_price": 899.99,
+    "product_rating": 4.8,
+    "product_short_description": "Flagship smartphone with Tensor SoC, 6.7-inch LTPO OLED display, and advanced camera system.",
+    "product_long_description": "Capture stunning moments and experience pure Android with the Google Pixel 6 Pro. Featuring the custom Tensor SoC, a 6.7-inch LTPO OLED display, and an advanced camera system, it's designed for photography enthusiasts and Android aficionados.",
+    "product_highlights": [
+      "6.7-inch LTPO OLED display with 120Hz refresh rate for smooth visuals",
+      "Tensor SoC for AI-driven performance and photography enhancements",
+      "Triple camera system with 50MP main sensor, 12MP ultra-wide, and 48MP telephoto",
+      "4K video recording at 60fps and 8K at 30fps for high-quality video capture",
+      "IP68 water and dust resistance for durability in various environments",
+      "Android 12 with guaranteed updates for a secure and up-to-date experience"
+    ]
+  },
+  {
+    "product_id": 2,
+    "brand_name": "Google LLC",
+    "product_name": "Google Nest Hub (2nd Gen)",
+    "product_image": [
+      "https://i.ibb.co/HN27J9v/Google-Nest-Hub-1.jpg",
+      "https://i.ibb.co/3fmcxZV/Google-Nest-Hub-2.jpg"
+    ],
+    "product_category": "Smart Display",
+    "product_price": 99.99,
+    "product_rating": 4.7,
+    "product_short_description": "Smart display with 7-inch touchscreen, Google Assistant, and sleep sensing technology.",
+    "product_long_description": "Transform your home with the Google Nest Hub (2nd Gen). With a vibrant 7-inch touchscreen, built-in Google Assistant, and sleep sensing technology, it's a versatile addition to your smart home ecosystem.",
+    "product_highlights": [
+      "7-inch touchscreen for easy navigation and control of smart home devices",
+      "Voice-activated Google Assistant for hands-free tasks and queries",
+      "Sleep Sensing technology to monitor and analyze your sleep patterns",
+      "Stream music, videos, and more from popular streaming services",
+      "Compatible with a wide range of smart home devices for seamless automation",
+      "Ambient EQ for adjusting display brightness and color temperature based on the environment"
+    ]
+  },
+  {
+    "product_id": 3,
+    "brand_name": "Google LLC",
+    "product_name": "Google Pixelbook Go",
+    "product_image": [
+      "https://i.ibb.co/WcvHG94/Google-Pixelbook-Go-1.jpg",
+      "https://i.ibb.co/2KBWtRc/Google-Pixelbook-Go-2.jpg"
+    ],
+    "product_category": "Chromebook",
+    "product_price": 649.99,
+    "product_rating": 4.6,
+    "product_short_description": "Ultra-light Chromebook with 13.3-inch touchscreen, backlit keyboard, and up to 12 hours of battery life.",
+    "product_long_description": "Stay productive on the go with the Google Pixelbook Go. Featuring an ultra-light design, a 13.3-inch touchscreen, and a backlit keyboard, it's the perfect Chromebook for work, entertainment, and creativity.",
+    "product_highlights": [
+      "Ultra-light and thin design for portability and on-the-go productivity",
+      "13.3-inch Full HD touchscreen for a responsive and immersive experience",
+      "Quiet and comfortable backlit keyboard for efficient typing in any environment",
+      "Up to 12 hours of battery life for all-day usage without the need for charging",
+      "Titan C security chip for enhanced device and data security",
+      "Fast charging capabilities with up to 2 hours of use from a 20-minute charge"
+    ]
+  },
+  {
+    "product_id": 4,
+    "brand_name": "Google LLC",
+    "product_name": "Google Pixel Buds A-Series",
+    "product_image": [
+      "https://i.ibb.co/9bjWq14/Google-Pixel-Buds-A-Series-1.jpg",
+      "https://i.ibb.co/tBm487s/Google-Pixel-Buds-A-Series-2.jpg"
+    ],
+    "product_category": "Wireless Earbuds",
+    "product_price": 99.99,
+    "product_rating": 4.5,
+    "product_short_description": "Affordable and high-quality wireless earbuds with rich sound and hands-free Google Assistant.",
+    "product_long_description": "Immerse yourself in clear and rich sound with the Google Pixel Buds A-Series. These affordable wireless earbuds offer hands-free access to Google Assistant and a comfortable, secure fit for all-day use.",
+    "product_highlights": [
+      "Rich and immersive sound quality for an enjoyable listening experience",
+      "Passive noise reduction for minimizing ambient sounds in your environment",
+      "Hands-free access to Google Assistant for convenient voice commands",
+      "Stylish and secure fit with an in-ear design and stabilizer arc",
+      "Sweat and water-resistant design for durability during workouts and outdoor activities",
+      "Intuitive touch controls for music playback, calls, and accessing Assistant"
+    ]
+  },
+  {
+    "product_id": 5,
+    "brand_name": "Google LLC",
+    "product_name": "Google Chromecast with Google TV",
+    "product_image": [
+      "https://i.ibb.co/Fzdw9kr/Google-Chromecast-with-Google-TV-1.jpg",
+      "https://i.ibb.co/QDjv6QZ/Google-Chromecast-with-Google-TV-2.jpg"
+    ],
+    "product_category": "Streaming Device",
+    "product_price": 49.99,
+    "product_rating": 4.8,
+    "product_short_description": "Streaming device with 4K HDR support, Google TV interface, and voice remote for easy content discovery.",
+    "product_long_description": "Upgrade your entertainment experience with the Google Chromecast with Google TV. Featuring 4K HDR support, the Google TV interface, and a voice remote, it's the perfect companion for streaming your favorite shows and movies.",
+    "product_highlights": [
+      "Supports streaming in 4K HDR for stunning and detailed visuals",
+      "Google TV interface for easy content discovery and personalized recommendations",
+      "Voice remote with dedicated buttons for quick access to popular streaming services",
+      "Chromecast built-in for casting content from your phone, tablet, or computer",
+      "Access to a wide range of streaming apps and services for diverse content options",
+      "Compact and easy-to-install design for a seamless streaming experience"
+    ]
+  },
+  {
+    "product_id": 6,
+    "brand_name": "Google LLC",
+    "product_name": "Google Nest Hello Video Doorbell",
+    "product_image": [
+      "https://i.ibb.co/hD98sfM/Google-Nest-Hello-Video-Doorbell-1.jpg",
+      "https://i.ibb.co/gR3CN5F/Google-Nest-Hello-Video-Doorbell-2.jpg"
+    ],
+    "product_category": "Smart Home Security",
+    "product_price": 229.99,
+    "product_rating": 4.7,
+    "product_short_description": "Smart video doorbell with HD camera, 24/7 streaming, and facial recognition for enhanced home security.",
+    "product_long_description": "Enhance your home security with the Google Nest Hello Video Doorbell. With an HD camera, 24/7 streaming, and facial recognition, it provides a comprehensive view of your doorstep and keeps you informed about who's at your door.",
+    "product_highlights": [
+      "HD camera with 160-degree field of view for a clear and wide perspective",
+      "24/7 streaming and video recording for real-time and recorded footage",
+      "Facial recognition for personalized alerts about familiar faces at your door",
+      "HDR and night vision for clear footage in various lighting conditions",
+      "Two-way audio for communication with visitors via the Nest app",
+      "Integration with Google Assistant for voice-controlled features and alerts"
+    ]
+  },
+  {
+    "product_id": 7,
+    "brand_name": "Google LLC",
+    "product_name": "Google Nest Thermostat",
+    "product_image": [
+      "https://i.ibb.co/dGHgXGJ/Google-Nest-Thermostat-1.jpg",
+      "https://i.ibb.co/kQ74BC9/Google-Nest-Thermostat-2.jpg"
+    ],
+    "product_category": "Smart Thermostat",
+    "product_price": 129.99,
+    "product_rating": 4.6,
+    "product_short_description": "Smart thermostat with energy-saving features, remote control, and compatibility with major smart home platforms.",
+    "product_long_description": "Take control of your home's climate with the Google Nest Thermostat. Featuring energy-saving capabilities, remote control via the Nest app, and compatibility with major smart home platforms, it's a sleek and intelligent addition to your home.",
+    "product_highlights": [
+      "Sleek design with a vibrant display for easy temperature adjustments",
+      "Energy-saving features to optimize heating and cooling based on your preferences",
+      "Remote control via the Nest app for adjusting settings from anywhere",
+      "Compatibility with major smart home platforms, including Google Assistant and Amazon Alexa",
+      "Early-On feature for pre-heating or pre-cooling to reach desired temperatures at scheduled times",
+      "Monthly energy usage reports for insights into your heating and cooling patterns"
+    ]
+  },
+  {
+    "product_id": 8,
+    "brand_name": "Google LLC",
+    "product_name": "Google Nest Cam Indoor",
+    "product_image": [
+      "https://i.ibb.co/L56j1Vr/Google-Nest-Cam-Indoor-1.jpg",
+      "https://i.ibb.co/NYCLytd/Google-Nest-Cam-Indoor-2.jpg"
+    ],
+    "product_category": "Smart Home Security",
+    "product_price": 129.99,
+    "product_rating": 4.7,
+    "product_short_description": "Indoor security camera with 1080p HD video, two-way audio, and intelligent alerts for home monitoring.",
+    "product_long_description": "Keep an eye on your home with the Google Nest Cam Indoor. Featuring 1080p HD video, two-way audio, and intelligent alerts, it provides reliable and convenient home monitoring, whether you're at home or away.",
+    "product_highlights": [
+      "1080p HD video with a 130-degree wide-angle view for detailed and broad coverage",
+      "Two-way audio for communication with people at home via the Nest app",
+      "Intelligent alerts for motion and sound detection with customizable activity zones",
+      "Night vision for clear footage in low-light conditions",
+      "Cloud storage options for video history and event playback",
+      "Integration with Google Assistant for voice commands and alerts"
+    ]
+  },
+  {
+    "product_id": 9,
+    "brand_name": "Google LLC",
+    "product_name": "Google Pixel Stand (2nd Gen)",
+    "product_image": [
+      "https://i.ibb.co/0V87tCk/Google-Pixel-Stand-1.jpg",
+      "https://i.ibb.co/Y75mJkL/Google-Pixel-Stand-2.jpg"
+    ],
+    "product_category": "Wireless Charger",
+    "product_price": 79.99,
+    "product_rating": 4.6,
+    "product_short_description": "Wireless charger with Pixel Stand AI features, fast charging, and ambient light sensing.",
+    "product_long_description": "Charge your Pixel device with the Google Pixel Stand (2nd Gen). With fast wireless charging, Pixel Stand AI features, and ambient light sensing, it transforms your charging experience into a convenient and intelligent daily routine.",
+    "product_highlights": [
+      "Fast wireless charging for Pixel devices with Qi-compatible technology",
+      "Pixel Stand AI features for personalized notifications, alarms, and more",
+      "Ambient light sensing for adjusting display brightness based on your environment",
+      "Landscape and portrait orientation support for versatile device placement",
+      "USB-C port for wired charging of other devices, such as headphones or smartwatches",
+      "Ideal for use on bedside tables, desks, or other convenient locations"
+    ]
+  }
+]

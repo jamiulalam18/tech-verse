@@ -1,0 +1,178 @@
+[
+  {
+    "product_id": 1,
+    "brand_name": "Microsoft Corporation",
+    "product_name": "Surface Laptop 4",
+    "product_image": [
+      "https://i.ibb.co/q0W7HKV/Surface-Laptop-4-1.jpg",
+      "https://i.ibb.co/b3p2cnZ/Surface-Laptop-4-2.jpg"
+    ],
+    "product_category": "Laptop",
+    "product_price": 1299.99,
+    "product_rating": 4.7,
+    "product_short_description": "Premium laptop with 11th Gen Intel Core or AMD Ryzen processors, PixelSense touchscreen, and Alcantara keyboard.",
+    "product_long_description": "Experience performance and style with the Microsoft Surface Laptop 4. Whether you choose the power of 11th Gen Intel Core or the efficiency of AMD Ryzen processors, it offers a PixelSense touchscreen and a luxurious Alcantara keyboard.",
+    "product_highlights": [
+      "Available with 11th Gen Intel Core or AMD Ryzen processors",
+      "13.5-inch or 15-inch PixelSense touchscreen display options",
+      "Up to 32GB RAM and up to 1TB SSD for fast and efficient performance",
+      "Alcantara or metal keyboard options for a premium typing experience",
+      "Omnisonic speakers with Dolby Atmos for immersive audio",
+      "Windows Hello for secure facial recognition login"
+    ]
+  },
+  {
+    "product_id": 2,
+    "brand_name": "Microsoft Corporation",
+    "product_name": "Surface Pro 8",
+    "product_image": [
+      "https://i.ibb.co/w04jqqM/Surface-Pro-8-1.jpg",
+      "https://i.ibb.co/J3J8S5g/Surface-Pro-8-2.jpg"
+    ],
+    "product_category": "2-in-1 Tablet",
+    "product_price": 999.99,
+    "product_rating": 4.8,
+    "product_short_description": "Versatile 2-in-1 tablet with 13-inch PixelSense display, 11th Gen Intel Core processors, and optional 5G connectivity.",
+    "product_long_description": "Empower your creativity and productivity with the Microsoft Surface Pro 8. This versatile 2-in-1 tablet features a 13-inch PixelSense display, powerful 11th Gen Intel Core processors, and the option for 5G connectivity on the go.",
+    "product_highlights": [
+      "13-inch PixelSense touchscreen display with 2880 x 1920 pixels resolution",
+      "Up to 11th Gen Intel Core i7 processor for fast and responsive performance",
+      "Available with up to 32GB RAM and up to 1TB SSD storage",
+      "USB-C and USB-A ports, plus Surface Connect for versatile connectivity",
+      "Optional 5G connectivity for high-speed internet on the go",
+      "Up to 15.5 hours of battery life for all-day productivity"
+    ]
+  },
+  {
+    "product_id": 3,
+    "brand_name": "Microsoft Corporation",
+    "product_name": "Xbox Series X",
+    "product_image": [
+      "https://i.ibb.co/FY9SJ91/Xbox-Series-X-1.jpg",
+      "https://i.ibb.co/jR4Xm4K/Xbox-Series-X-2.jpg"
+    ],
+    "product_category": "Gaming Console",
+    "product_price": 499.99,
+    "product_rating": 4.9,
+    "product_short_description": "Next-gen gaming console with 4K gaming, ray tracing, high-speed SSD, and Xbox Game Pass integration.",
+    "product_long_description": "Immerse yourself in the future of gaming with the Microsoft Xbox Series X. Featuring 4K gaming, ray tracing, a high-speed SSD, and seamless integration with Xbox Game Pass, it delivers a powerful and immersive gaming experience.",
+    "product_highlights": [
+      "AMD Ryzen Zen 2 Octa-core processor for fast and responsive gaming",
+      "12 teraflops of GPU power for stunning visuals and ray tracing",
+      "1TB custom NVMe SSD for high-speed game loading and responsiveness",
+      "Backward compatibility for thousands of Xbox, Xbox 360, and Xbox One games",
+      "Xbox Game Pass subscription service for access to a vast library of games",
+      "Quick Resume feature for jumping between multiple games seamlessly"
+    ]
+  },
+  {
+    "product_id": 4,
+    "brand_name": "Microsoft Corporation",
+    "product_name": "Surface Studio 3",
+    "product_image": [
+      "https://i.ibb.co/dWc0fxx/Surface-Studio-3-1.jpg",
+      "https://i.ibb.co/V27D5DD/Surface-Studio-3-2.jpg"
+    ],
+    "product_category": "All-in-One PC",
+    "product_price": 3499.99,
+    "product_rating": 4.7,
+    "product_short_description": "High-performance all-in-one PC with 28-inch PixelSense display, Intel Core i9 processor, and NVIDIA RTX 30-series GPU.",
+    "product_long_description": "Unleash your creativity with the Microsoft Surface Studio 3. This high-performance all-in-one PC features a large 28-inch PixelSense display, Intel Core i9 processor, and powerful NVIDIA RTX 30-series GPU for demanding creative tasks.",
+    "product_highlights": [
+      "28-inch PixelSense display with 4500 x 3000 pixels resolution and 3:2 aspect ratio",
+      "Available with Intel Core i7 or i9 processor for exceptional performance",
+      "Up to 64GB RAM and up to 2TB SSD for fast and efficient multitasking",
+      "NVIDIA GeForce RTX 3060, RTX 3070, or RTX 3080 GPU options",
+      "Surface Pen and Surface Dial for intuitive and precise creative inputs",
+      "Adjustable hinge for transitioning between Studio Mode and Desktop Mode"
+    ]
+  },
+  {
+    "product_id": 5,
+    "brand_name": "Microsoft Corporation",
+    "product_name": "Microsoft Ergonomic Keyboard",
+    "product_image": [
+      "https://i.ibb.co/6gfNVvP/Microsoft-Ergonomic-Keyboard-2.jpg",
+      "https://i.ibb.co/VjRs1b8/Microsoft-Ergonomic-Keyboard-1.jpg"
+    ],
+    "product_category": "Computer Peripheral",
+    "product_price": 79.99,
+    "product_rating": 4.6,
+    "product_short_description": "Ergonomically designed keyboard for comfortable typing, with split keyset and cushioned palm rest.",
+    "product_long_description": "Enhance your typing experience with the Microsoft Ergonomic Keyboard. Designed for comfort, it features a split keyset, cushioned palm rest, and dedicated shortcut keys for efficient and ergonomic typing.",
+    "product_highlights": [
+      "Ergonomically designed split keyset for natural wrist and hand positioning",
+      "Cushioned palm rest for comfortable typing over extended periods",
+      "Dedicated shortcut keys for quick access to media controls and more",
+      "Wired USB connection for reliable and responsive connectivity",
+      "Compatible with Windows operating systems for seamless integration",
+      "Quiet and responsive keys for a satisfying typing experience"
+    ]
+  },
+  {
+    "product_id": 6,
+    "brand_name": "Microsoft Corporation",
+    "product_name": "Microsoft Surface Headphones 2",
+    "product_image": [
+      "https://i.ibb.co/p1yphJ1/Microsoft-Surface-Headphones-2-1.jpg",
+      "https://i.ibb.co/9NL5HwC/Microsoft-Surface-Headphones-2-2.jpg"
+    ],
+    "product_category": "Wireless Headphones",
+    "product_price": 249.99,
+    "product_rating": 4.7,
+    "product_short_description": "Wireless over-ear headphones with active noise cancellation, touch controls, and immersive sound.",
+    "product_long_description": "Immerse yourself in music and productivity with the Microsoft Surface Headphones 2. Featuring active noise cancellation, intuitive touch controls, and rich sound, they provide a premium audio experience for work and leisure.",
+    "product_highlights": [
+      "13 levels of active noise cancellation for a distraction-free experience",
+      "Omnisonic sound for rich and immersive audio quality",
+      "On-ear touch controls for adjusting volume, answering calls, and more",
+      "Up to 20 hours of battery life for extended use on a single charge",
+      "Comfortable over-ear design with plush ear cups for all-day wear",
+      "Built-in microphones for clear voice capture during calls"
+    ]
+  },
+  {
+    "product_id": 7,
+    "brand_name": "Microsoft Corporation",
+    "product_name": "Microsoft Surface Hub 2S",
+    "product_image": [
+      "https://i.ibb.co/SNftN2Y/Microsoft-Surface-Hub-2-S-1.jpg",
+      "https://i.ibb.co/dj5JGhk/Microsoft-Surface-Hub-2-S-2.jpg"
+    ],
+    "product_category": "Streaming Device",
+    "product_price": 8999.99,
+    "product_rating": 4.8,
+    "product_short_description": "Collaboration device with 50-inch PixelSense display, 4K camera, and Microsoft Teams integration.",
+    "product_long_description": "Transform your collaboration experience with the Microsoft Surface Hub 2S. Featuring a large 50-inch PixelSense display, 4K camera, and Microsoft Teams integration, it's designed for seamless and interactive teamwork.",
+    "product_highlights": [
+      "50-inch PixelSense display with 3840 x 2560 pixels resolution and 3:2 aspect ratio",
+      "4K camera with wide-angle lens for clear and inclusive video conferencing",
+      "Microsoft Teams integration for seamless collaboration and communication",
+      "Slim and lightweight design for easy mobility within the workplace",
+      "Surface Pen and touch support for interactive and intuitive presentations",
+      "Upgradable processor cartridge for future-proofing your investment"
+    ]
+  },
+  {
+    "product_id": 8,
+    "brand_name": "Microsoft Corporation",
+    "product_name": "Microsoft Modern Mobile Mouse",
+    "product_image": [
+      "https://i.ibb.co/xJBRkwy/Microsoft-Modern-Mobile-Mouse-1.jpg",
+      "https://i.ibb.co/hRc6Cts/Microsoft-Modern-Mobile-Mouse-2.jpg"
+    ],
+    "product_category": "Computer Peripheral",
+    "product_price": 34.99,
+    "product_rating": 4.6,
+    "product_short_description": "Compact and portable wireless mouse with smooth scrolling and comfortable design.",
+    "product_long_description": "Stay productive on the go with the Microsoft Modern Mobile Mouse. Featuring a compact and portable design, smooth scrolling, and wireless connectivity, it's the perfect companion for your laptop or tablet.",
+    "product_highlights": [
+      "Compact and portable design for on-the-go productivity",
+      "Smooth scrolling for easy navigation through documents and websites",
+      "Wireless connectivity with a range of up to 33 feet",
+      "Ambidextrous design for comfortable use with either hand",
+      "Available in various colors to suit your style and preferences",
+      "Up to 12 months of battery life for long-lasting usage"
+    ]
+  }
+]
