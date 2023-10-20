@@ -37,13 +37,13 @@ Here, we have provided you a list of `7 different types of categories to build y
 
 ### :writing_hand: Main Requirements
 
-1. Make sure your design and website idea is unique. First, finalize your idea (what type of website you want to build). Then google the site design or visit `themeforest` to get your website idea. [You can visit this blog to collect free resources for your website](https://bootcamp.uxdesign.cc/free-images-and-resources-collection-for-website-c77f2fc46ce5). However, your website :x: `can not be related to your previous assignments or any demo project displayed in the course or in our conceptual sessions` :x:. :x:
+1. Make sure your design and website idea is unique. First, finalize your idea (what type of website you want to build). Then google the site design or visit `themeforest` to get your website idea. [You can visit this blog to collect free resources for your website](https://bootcamp.uxdesign.cc/free-images-and-resources-collection-for-website-c77f2fc46ce5). However, your website :x: `can not be related to your previous assignments or any demo project displayed in the course or in our conceptual sessions` :x:. :white_check_mark:
 
-2. Home page will have a navbar, banner, footer and at least 6 types of brand names having the following information: `brand image`and `brand name`.:x:
+2. Home page will have a navbar, banner, footer and at least 6 types of brand names having the following information: `brand image`and `brand name`.:white_check_mark:
 
 3. The navbar will have website name with logo, Home, Add Product, My Cart, and Login.:x:
 
-4. Add two extra sections in the home page in addition to the 4 sections mentioned above.:x:
+4. Add two extra sections in the home page in addition to the 4 sections mentioned above.:white_check_mark:
 
 5. Create an `Add Product` page where there will be a form for the user to add a product. The form will have::x:
 
