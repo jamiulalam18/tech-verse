@@ -12,7 +12,7 @@ const BrandsSection = () => {
     <div className="mt-12">
       <div className="max-w-screen-xl rounded-xl mx-auto">
         <h2 className="text-5xl font-extrabold text-center">
-          Shop From Our Partner Brands {console.log(brands)}
+          Shop From Our Partner Brands
         </h2>
         <div className="rounded-xl mx-auto grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-8">
         {brands.map((brand) => (

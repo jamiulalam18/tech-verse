@@ -21,7 +21,6 @@ const CustomRoute = createBrowserRouter([
         path: "/brandDetails/:id",
         element: <BrandDetails />,
         loader: ({ params }) => {
-            console.log(`http://localhost:5000/brandDetails/${params.id}`);
             return fetch(`http://localhost:5000/brandDetails/${params.id}`);
           },
       },
