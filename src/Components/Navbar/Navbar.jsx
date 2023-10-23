@@ -2,8 +2,9 @@ import { Link, NavLink } from "react-router-dom";
 import { RxDropdownMenu } from "react-icons/rx";
 import { useContext } from "react";
 import { PiSignOutBold } from "react-icons/pi";
-import logo_url from './../../../public/logo-clear.png';
+import logo_url from "./../../../public/logo-clear.png";
 import { AuthContext } from "../../Provider/AuthProvider";
+import { BsFillCartFill } from "react-icons/bs";
 
 const navItems = (
   <>
@@ -34,9 +35,9 @@ const navItems = (
     <li className="">
       <NavLink
         className="font-bold hover:text-white hover:font-extrabold hover:bg-[#344C5C]"
-        to={"/contact"}
+        to={"/productDashboard"}
       >
-        Contact Us
+        Products Dashboard
       </NavLink>
     </li>
   </>
@@ -92,7 +93,14 @@ const Navbar = () => {
                   <div className="flex items-center bg-slate-500 rounded-full pr-4 gap-2">
                     <div className="avatar">
                       <div className="w-14 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                        <img src={user?.photoURL ? (user?.photoURL):('./../../../public/profile-avatar.jpg')} alt="profile" />
+                        <img
+                          src={
+                            user?.photoURL
+                              ? user?.photoURL
+                              : "./../../../public/profile-avatar.jpg"
+                          }
+                          alt="profile"
+                        />
                       </div>
                     </div>
                     <RxDropdownMenu />
@@ -123,6 +131,18 @@ const Navbar = () => {
               </div>
             ) : (
               <div>
+                <div className="indicator">
+                  <span className="indicator-item indicator-start badge badge-secondary">
+                    0
+                  </span>
+                  <Link to={"/userCart/653145ac16e3a2c4c89c5ade"} className="">
+                  <button className=" bg-slate-200 mr-2 glass px-2 md:px-6 py-2 rounded-full font-bold capitalize text-sm md:text-xl hover:bg-slate-300">
+                    <BsFillCartFill className="inline-block"></BsFillCartFill>
+                    &nbsp;Cart
+                  </button>
+                </Link>
+                </div>
+                
                 <Link to={"/signup"}>
                   <button className="bg-slate-200 mr-2 glass px-2 md:px-6 py-2 rounded-full font-bold capitalize text-sm md:text-xl hover:bg-slate-300">
                     Sign Up
