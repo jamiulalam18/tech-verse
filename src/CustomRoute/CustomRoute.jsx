@@ -7,6 +7,8 @@ import SignUpPage from "../Pages/SignUpPage";
 import ErrorPage from "../Pages/ErrorPage";
 import ProductDetails from "../Pages/ProductDetails";
 import UserCart from "../Pages/UserCart";
+import AddProduct from './../Pages/AddProduct';
+import UpdateProduct from "../Pages/UpdateProduct";
 
 const CustomRoute = createBrowserRouter([
   {
@@ -20,7 +22,7 @@ const CustomRoute = createBrowserRouter([
       },
       {
         path: "/addProducts",
-        element: <h2>Add products</h2>,
+        element: <AddProduct></AddProduct>,
       },
       {
         path: "/brandDetails/:id",
@@ -40,6 +42,13 @@ const CustomRoute = createBrowserRouter([
       {
         path: "/productDetails/:id",
         element: <ProductDetails />,
+        loader: ({ params }) => {
+            return fetch(`http://localhost:5000/products/${params.id}`);
+          },
+      },
+      {
+        path: "/updateProduct/:id",
+        element: <UpdateProduct />,
         loader: ({ params }) => {
             return fetch(`http://localhost:5000/products/${params.id}`);
           },

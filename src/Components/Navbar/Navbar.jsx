@@ -32,14 +32,14 @@ const navItems = (
         Meet Our Team
       </NavLink>
     </li> */}
-    <li className="">
+    {/* <li className="">
       <NavLink
         className="font-bold hover:text-white hover:font-extrabold hover:bg-[#344C5C]"
         to={"/productDashboard"}
       >
         Products Dashboard
       </NavLink>
-    </li>
+    </li> */}
   </>
 );
 const Navbar = () => {
@@ -87,6 +87,17 @@ const Navbar = () => {
             <ul className="menu menu-horizontal px-1">{navItems}</ul>
           </div>
           <div className="navbar-end">
+          <div className="indicator">
+                  <span className="indicator-item indicator-start badge badge-secondary">
+                    0
+                  </span>
+                  <Link to={"/userCart/653145ac16e3a2c4c89c5ade"} className="">
+                    <button className=" bg-slate-200 mr-2 glass px-2 md:px-6 py-2 rounded-full font-bold capitalize text-sm md:text-xl hover:bg-slate-300">
+                      <BsFillCartFill className="inline-block"></BsFillCartFill>
+                      &nbsp;Cart
+                    </button>
+                  </Link>
+                </div>
             {user ? (
               <div className="dropdown dropdown-end">
                 <label tabIndex={0} className="">
@@ -131,18 +142,8 @@ const Navbar = () => {
               </div>
             ) : (
               <div>
-                <div className="indicator">
-                  <span className="indicator-item indicator-start badge badge-secondary">
-                    0
-                  </span>
-                  <Link to={"/userCart/653145ac16e3a2c4c89c5ade"} className="">
-                  <button className=" bg-slate-200 mr-2 glass px-2 md:px-6 py-2 rounded-full font-bold capitalize text-sm md:text-xl hover:bg-slate-300">
-                    <BsFillCartFill className="inline-block"></BsFillCartFill>
-                    &nbsp;Cart
-                  </button>
-                </Link>
-                </div>
                 
+
                 <Link to={"/signup"}>
                   <button className="bg-slate-200 mr-2 glass px-2 md:px-6 py-2 rounded-full font-bold capitalize text-sm md:text-xl hover:bg-slate-300">
                     Sign Up

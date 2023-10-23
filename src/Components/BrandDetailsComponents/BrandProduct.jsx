@@ -60,10 +60,13 @@ const BrandProduct = ({ brand_product }) => {
             Price: $ {product_price}
           </h2>
           <div className="card-actions justify-between">
-            <button className="btn btn-primary bg-[#d1637baa] hover:bg-[#d1637b] font-extrabold text-black border-none">
-            <AiOutlineEdit></AiOutlineEdit>
-              Update Product
-            </button>
+            <Link to={`/updateProduct/${_id}`}>
+              <button className="btn btn-primary bg-[#d1637baa] hover:bg-[#d1637b] font-extrabold text-black border-none">
+                <AiOutlineEdit></AiOutlineEdit>
+                Update Product
+              </button>
+            </Link>
+
             <Link to={`/productDetails/${_id}`}>
               <button className="btn btn-primary bg-[#ADCCD4AA] hover:bg-[#ADCCD4] font-extrabold text-black border-none">
                 See Details

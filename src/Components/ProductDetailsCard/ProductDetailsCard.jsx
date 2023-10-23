@@ -5,12 +5,14 @@ import {
   AiOutlineShopping,
   AiTwotoneStar,
   AiOutlineStar,
-  AiOutlineEdit
+  AiOutlineEdit,
 } from "react-icons/ai";
 import Rating from "react-rating";
+import { Link } from "react-router-dom";
 
 const ProductDetailsCard = ({ product_details }) => {
   const {
+    _id,
     product_image,
     product_name,
     brand_name,
@@ -104,15 +106,11 @@ const ProductDetailsCard = ({ product_details }) => {
           {/* ::Customization Container */}
           <div className="order-1 lg:order-2 py-8 sm:px-6 border-b-2 border-gray-200">
             {/* :::Name */}
-            <h1 className="font-extrabold lg:hidden">
-                {brand_name}
-            </h1>
+            <h1 className="font-extrabold lg:hidden">{brand_name}</h1>
             <h1 className="mb-5 block lg:hidden text-3xl sm:text-4xl text-gray-700 font-light tracking-wide">
               {product_name}
             </h1>
-            <h1 className="font-light lg:hidden">
-                {product_category}
-            </h1>
+            <h1 className="font-light lg:hidden">{product_category}</h1>
             <div className="flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0 sm:space-x-6">
               {/* Rating */}
               <div className="flex items-center justify-start gap-1">
@@ -125,7 +123,7 @@ const ProductDetailsCard = ({ product_details }) => {
                 />
                 <p className="">({product_rating})</p>
               </div>
-              
+
               {/* :::Price */}
               <span className="m-2.5 text-4xl text-gray-500 font-extrabold">
                 <span className="font-normal">$</span>
@@ -175,13 +173,16 @@ const ProductDetailsCard = ({ product_details }) => {
           {/* ::Actions Container */}
           <div className="order-2 lg:order-3 pt-8 sm:px-6 flex flex-wrap lg:flex-nowrap justify-between items-center border-b-2 lg:border-none border-gray-200">
             {/* Update */}
-          <button
-              type="button"
-              className="m-2.5 py-1.5 px-5 inline-flex items-center rounded-md text-base uppercase whitespace-nowrap bg-[#d1637baa] hover:bg-[#d1637b] font-extrabold text-black border-none"
-            >
-<AiOutlineEdit></AiOutlineEdit>
-              &nbsp;&nbsp;&nbsp;Update Product
-            </button>
+            <Link to={`/updateProduct/${_id}`}>
+              <button
+                type="button"
+                className="m-2.5 py-1.5 px-5 inline-flex items-center rounded-md text-base uppercase whitespace-nowrap bg-[#d1637baa] hover:bg-[#d1637b] font-extrabold text-black border-none"
+              >
+                <AiOutlineEdit></AiOutlineEdit>
+                &nbsp;&nbsp;&nbsp;Update Product
+              </button>
+            </Link>
+
             {/* :::Add to cart button */}
             <button
               type="button"
@@ -191,7 +192,6 @@ const ProductDetailsCard = ({ product_details }) => {
               Add to cart
             </button>
 
-            
             {/* :::Reviews */}
             {/* <div className="m-2.5 flex items-center"> */}
             {/* ::::rating stars */}
