@@ -5,16 +5,73 @@ import { successToast } from "../Toasts/SuccessToast";
 import { errorToast } from "../Toasts/ErrorToast";
 import { FcGoogle } from "react-icons/fc";
 
-
 const SocialLogin = () => {
   const { googleLogin } = useContext(AuthContext);
   const location = useLocation();
   const navigate = useNavigate();
   const handleSocialLogin = (media) => {
     media()
-      .then(() => {
+      .then((result) => {
         // navigate after login
-        // console.log(location);
+        const name = result.user.displayName;
+        const email = result.user.email;
+        const photo = result.user.photoURL;
+
+        fetch(`http://localhost:5000/usersByEmail/${email}`)
+          .then((response) => response.json())
+          .then((data) => {
+            console.log(data);
+            if (data?.email) {
+              console.log("User already exists. Google.");
+            } else {
+              const newUser = {
+                full_name: name,
+                email: email,
+                image: photo,
+                shopping_cart: [],
+              };
+              // send data to the server
+              fetch("http://localhost:5000/users", {
+                method: "POST",
+                headers: {
+                  "content-type": "application/json",
+                },
+                body: JSON.stringify(newUser),
+              })
+                .then((res) => res.json())
+                .then((data) => {
+                  console.log(data);
+                  if (data.insertedId) {
+                    console.log("New user inserted to DB");
+                  }
+                });
+            }
+          })
+          .catch((error) => {
+            console.error(error.message);
+            const newUser = {
+              full_name: name,
+              email: email,
+              image: photo,
+              shopping_cart: [],
+            };
+            // send data to the server
+            fetch("http://localhost:5000/users", {
+              method: "POST",
+              headers: {
+                "content-type": "application/json",
+              },
+              body: JSON.stringify(newUser),
+            })
+              .then((res) => res.json())
+              .then((data) => {
+                console.log(data);
+                if (data.insertedId) {
+                  console.log("New user inserted to DB");
+                }
+              });
+          });
+
         successToast("Successfully Signed In!!");
         navigate(location?.state ? location.state : "/");
       })

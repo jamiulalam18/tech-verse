@@ -7,8 +7,9 @@ import SignUpPage from "../Pages/SignUpPage";
 import ErrorPage from "../Pages/ErrorPage";
 import ProductDetails from "../Pages/ProductDetails";
 import UserCart from "../Pages/UserCart";
-import AddProduct from './../Pages/AddProduct';
+import AddProduct from "./../Pages/AddProduct";
 import UpdateProduct from "../Pages/UpdateProduct";
+import PrivateRoute from "../PrivateRoute/PrivateRoute";
 
 const CustomRoute = createBrowserRouter([
   {
@@ -22,14 +23,29 @@ const CustomRoute = createBrowserRouter([
       },
       {
         path: "/addProducts",
-        element: <AddProduct></AddProduct>,
+        element: (
+          <PrivateRoute>
+            <AddProduct></AddProduct>
+          </PrivateRoute>
+        ),
       },
       {
         path: "/brandDetails/:id",
-        element: <BrandDetails />,
+        element: (
+          <PrivateRoute>
+            <BrandDetails></BrandDetails>
+          </PrivateRoute>
+        ),
         loader: ({ params }) => {
-            return fetch(`http://localhost:5000/brandDetails/${params.id}`);
-          },
+          // return [fetch(`http://localhost:5000/brandDetails/${params.id}`),params.id];
+          return fetch(`http://localhost:5000/brandDetails/${params.id}`);
+
+          // const [brandProducts, brand_id] = Promise.all([
+          //   fetch(`http://localhost:5000/brandDetails/${params.id}`),
+          //   params.id,
+          // ]);
+          // return {brandProducts,brand_id}
+        },
       },
       {
         path: "/signin",
@@ -41,24 +57,36 @@ const CustomRoute = createBrowserRouter([
       },
       {
         path: "/productDetails/:id",
-        element: <ProductDetails />,
+        element: (
+          <PrivateRoute>
+            <ProductDetails></ProductDetails>
+          </PrivateRoute>
+        ),
         loader: ({ params }) => {
-            return fetch(`http://localhost:5000/products/${params.id}`);
-          },
+          return fetch(`http://localhost:5000/products/${params.id}`);
+        },
       },
       {
         path: "/updateProduct/:id",
-        element: <UpdateProduct />,
+        element: (
+          <PrivateRoute>
+            <UpdateProduct></UpdateProduct>
+          </PrivateRoute>
+        ),
         loader: ({ params }) => {
-            return fetch(`http://localhost:5000/products/${params.id}`);
-          },
+          return fetch(`http://localhost:5000/products/${params.id}`);
+        },
       },
       {
         path: "/userCart/:id",
-        element: <UserCart></UserCart>,
+        element: (
+          <PrivateRoute>
+            <UserCart></UserCart>
+          </PrivateRoute>
+        ),
         loader: ({ params }) => {
-            return fetch(`http://localhost:5000/users/${params.id}`);
-          },
+          return fetch(`http://localhost:5000/users/${params.id}`);
+        },
       },
     ],
   },

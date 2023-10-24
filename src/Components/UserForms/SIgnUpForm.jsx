@@ -129,7 +129,7 @@ const SIgnUpForm = () => {
           })
           .catch((error) => {
             console.error(error.message);
-            // errorToast("Could Not Sign Up!! Please Try Again Later");
+            errorToast("Could Not Sign Up!! Please Try Again Later");
           });
       });
   };
