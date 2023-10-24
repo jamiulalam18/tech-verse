@@ -1,52 +1,59 @@
-import {
-  Button,
-  Label,
-  Select,
-  Textarea,
-  TextInput,
-} from "flowbite-react";
+import { Button, Label, Select, Textarea, TextInput } from "flowbite-react";
 import { successToast } from "../Toasts/SuccessToast";
 const AddProductForm = () => {
-
-  const handleAddProduct =(e) =>{
+  const handleAddProduct = (e) => {
     e.preventDefault();
-    const form=new FormData(e.currentTarget);
-    const brand_name=form.get('brand_name');
-    const product_name=form.get('product_name');
-    const product_category=form.get('product_category');
-    const product_image_url1=form.get('product_image_url1');
-    const product_image_url2=form.get('product_image_url2');
-    const product_price=form.get('product_price');
-    const product_rating=form.get('product_rating');
-    const product_short_description=form.get('short_description');
-    const product_long_description=form.get('long_description');
-    const product_highlights_txt=form.get('product_highlights');
-    const product_image=[product_image_url1,product_image_url2]
-    const product_highlights=product_highlights_txt.split('\n').filter(line => line.trim() !== '');
+    const form = new FormData(e.currentTarget);
+    const brand_name = form.get("brand_name");
+    const product_name = form.get("product_name");
+    const product_category = form.get("product_category");
+    const product_image_url1 = form.get("product_image_url1");
+    const product_image_url2 = form.get("product_image_url2");
+    const product_price = form.get("product_price");
+    const product_rating = form.get("product_rating");
+    const product_short_description = form.get("short_description");
+    const product_long_description = form.get("long_description");
+    const product_highlights_txt = form.get("product_highlights");
+    const product_image = [product_image_url1, product_image_url2];
+    const product_highlights = product_highlights_txt
+      .split("\n")
+      .filter((line) => line.trim() !== "");
 
-    const new_product={brand_name,product_name,product_category,product_image,product_highlights,product_price,product_rating,product_short_description,product_long_description}
+    const new_product = {
+      brand_name,
+      product_name,
+      product_category,
+      product_image,
+      product_highlights,
+      product_price,
+      product_rating,
+      product_short_description,
+      product_long_description,
+    };
     console.log(new_product);
 
     // send data to the server
-    fetch('http://localhost:5000/products', {
-      method: 'POST',
+    fetch("http://localhost:5000/products", {
+      method: "POST",
       headers: {
-          'content-type': 'application/json'
+        "content-type": "application/json",
       },
-      body: JSON.stringify(new_product)
-  })
-      .then(res => res.json())
-      .then(data => {
-          console.log(data);
-          if(data.insertedId){
-              successToast("Product inserted successfully!!")
-          }
-      })
-    
-  }
+      body: JSON.stringify(new_product),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+        if (data.insertedId) {
+          successToast("Product inserted successfully!!");
+        }
+      });
+  };
   return (
     <div className="bg-white flex justify-center w-full rounded-lg">
-      <form onSubmit={handleAddProduct} className="flex max-w-md flex-col gap-2 w-full py-4 rounded-lg">
+      <form
+        onSubmit={handleAddProduct}
+        className="flex max-w-md flex-col gap-2 w-full py-4 rounded-lg"
+      >
         <div>
           <div className="max-w-md" id="select">
             <div className=" block">
@@ -79,7 +86,10 @@ const AddProductForm = () => {
         <div>
           <div className="max-w-md" id="select">
             <div className=" block">
-              <Label htmlFor="product_category" value="Select Product Category" />
+              <Label
+                htmlFor="product_category"
+                value="Select Product Category"
+              />
             </div>
             <Select id="product_category" name="product_category" required>
               <option>2-in-1 Tablet</option>
@@ -158,7 +168,7 @@ const AddProductForm = () => {
             placeholder="0.00"
             required
             min={0.0}
-            max={100000.00}
+            max={100000.0}
             step="0.01"
             type="number"
           />
@@ -219,10 +229,7 @@ const AddProductForm = () => {
         <div>
           <div className="max-w-md" id="product_highlights">
             <div className="block">
-              <Label
-                htmlFor="product_highlights"
-                value="Product Highlights"
-              />
+              <Label htmlFor="product_highlights" value="Product Highlights" />
             </div>
             <Textarea
               id="product_highlights"

@@ -249,7 +249,7 @@ const UpdateProductForm = ({ product }) => {
           </div>
         </div>
 
-        <Button type="submit">Add Product</Button>
+        <Button type="submit">Update Product</Button>
       </form>
     </div>
   );
