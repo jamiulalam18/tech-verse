@@ -5,6 +5,7 @@ import { PiSignOutBold } from "react-icons/pi";
 import logo_url from "./../../../public/logo-clear.png";
 import { AuthContext } from "../../Provider/AuthProvider";
 import { BsFillCartFill } from "react-icons/bs";
+import { CartContext } from "../../Provider/CartProvider";
 
 const navItems = (
   <>
@@ -44,6 +45,7 @@ const navItems = (
 );
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
+  const { cartItemQty } = useContext(CartContext);
   // const { displayName, email, photoURL } = user;
   const handleSignOut = () => {
     logOut().then().catch();
@@ -87,17 +89,17 @@ const Navbar = () => {
             <ul className="menu menu-horizontal px-1">{navItems}</ul>
           </div>
           <div className="navbar-end">
-          <div className="indicator">
-                  <span className="indicator-item indicator-start badge badge-secondary">
-                    0
-                  </span>
-                  <Link to={"/userCart/653145ac16e3a2c4c89c5ade"} className="">
-                    <button className=" bg-slate-200 mr-2 glass px-2 md:px-6 py-2 rounded-full font-bold capitalize text-sm md:text-xl hover:bg-slate-300">
-                      <BsFillCartFill className="inline-block"></BsFillCartFill>
-                      &nbsp;Cart
-                    </button>
-                  </Link>
-                </div>
+            <div className="indicator">
+              <span className="indicator-item indicator-start badge badge-secondary">
+                {cartItemQty}
+              </span>
+              <Link to={`/userCart`} className="">
+                <button className=" bg-slate-200 mr-2 glass px-2 md:px-6 py-2 rounded-full font-bold capitalize text-sm md:text-xl hover:bg-slate-300">
+                  <BsFillCartFill className="inline-block"></BsFillCartFill>
+                  &nbsp;Cart
+                </button>
+              </Link>
+            </div>
             {user ? (
               <div className="dropdown dropdown-end">
                 <label tabIndex={0} className="">
@@ -142,8 +144,6 @@ const Navbar = () => {
               </div>
             ) : (
               <div>
-                
-
                 <Link to={"/signup"}>
                   <button className="bg-slate-200 mr-2 glass px-2 md:px-6 py-2 rounded-full font-bold capitalize text-sm md:text-xl hover:bg-slate-300">
                     Sign Up

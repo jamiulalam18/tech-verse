@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { useState } from "react";
+import { useContext, useState } from "react";
 import {
   AiOutlineHeart,
   AiOutlineShopping,
@@ -9,8 +9,16 @@ import {
 } from "react-icons/ai";
 import Rating from "react-rating";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../Provider/AuthProvider";
+import { successToast } from "./../Toasts/SuccessToast";
+import { CartContext } from "../../Provider/CartProvider";
+
 
 const ProductDetailsCard = ({ product_details }) => {
+  
+  
+  const { user } = useContext(AuthContext);
+  const {cartItemQty, setCartItemQty,cartItemPrice, setCartItemPrice}=useContext(CartContext);
   const {
     _id,
     product_image,
@@ -24,6 +32,58 @@ const ProductDetailsCard = ({ product_details }) => {
   } = product_details;
 
   const [mainPicture, setMainPicture] = useState(0);
+  const [qty, setQty] = useState(1);
+  const handleQtyChange = (e) => {
+    setQty(parseInt(e.currentTarget.value));
+  };
+  const handleAddToCart = () => {
+    console.log(qty);
+    console.log(user.email);
+    // const test_mail = "michael.anderson@example.com";
+    console.log(_id);
+    fetch(`http://localhost:5000/usersByEmail/${user.email}`)
+    // fetch(`http://localhost:5000/usersByEmail/${test_mail}`)
+      .then((response) => response.json())
+      .then((data) => {
+        const shopping_cart = data.shopping_cart;
+        const newItem = { product_id: _id, quantity: qty, cost: parseFloat(parseFloat(product_price)*parseInt(qty)).toFixed(2)};
+        console.log(newItem);
+
+        // Check if there's an existing item with the same product_id
+        const existingItemIndex = shopping_cart.findIndex(
+          (item) => item.product_id === newItem.product_id
+        );
+
+        if (existingItemIndex !== -1) {
+          // If the item already exists, update the quantity
+          shopping_cart[existingItemIndex].quantity += newItem.quantity;
+          shopping_cart[existingItemIndex].cost =parseFloat(parseFloat(shopping_cart[existingItemIndex].cost)+parseFloat(product_price*qty)).toFixed(2);
+        } else {
+          // If the item doesn't exist, add the new item to the array
+          shopping_cart.push(newItem);
+        }
+
+        // send data to the server
+        fetch(`http://localhost:5000/usersCart/${data._id}`, {
+          method: "PATCH",
+          headers: {
+            "content-type": "application/json",
+          },
+          body: JSON.stringify(shopping_cart),
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            console.log(data);
+            if (data.modifiedCount > 0) {
+              successToast("Added To Cart!!!");
+              setCartItemQty(cartItemQty+newItem.quantity);
+              setCartItemPrice(parseFloat(parseFloat(cartItemPrice)+parseFloat(parseInt(newItem.quantity)*parseFloat(product_price))).toFixed(2));
+            }
+          });
+
+        console.log(shopping_cart);
+      });
+  };
 
   return (
     <div className="mx-auto px-4 w-full max-w-7xl bg-white text-gray-700">
@@ -130,15 +190,27 @@ const ProductDetailsCard = ({ product_details }) => {
                 {product_price}
               </span>
               {/* :::Quantity */}
-              <label htmlFor="quantity" className="sr-only">
+              {/* <label htmlFor="quantity" className="sr-only">
                 Select the quantity
-              </label>
-              <input
+              </label> */}
+              <div className="flex justify-start items-center">
+                <h1 className="font-bold">Qty:</h1>
+                <input
+                  onChange={handleQtyChange}
+                  type="number"
+                  defaultValue="1"
+                  min="1"
+                  id="qty"
+                  name="qty"
+                  className="form-input py-1 pl-2 w-20 rounded border-2 border-gray-300 bg-gray-100 focus:border-yellow-600 focus:ring-0"
+                />
+              </div>
+              {/* <input
                 type="number"
                 defaultValue="1"
                 min="1"
                 className="form-input py-1 pl-2 w-20 rounded border-2 border-gray-300 bg-gray-100 focus:border-yellow-600 focus:ring-0"
-              />
+              /> */}
               {/* :::Color */}
               {/* <label htmlFor="color" className="sr-only">
                 Select your color
@@ -185,6 +257,7 @@ const ProductDetailsCard = ({ product_details }) => {
 
             {/* :::Add to cart button */}
             <button
+              onClick={handleAddToCart}
               type="button"
               className="m-2.5 py-1.5 px-5 inline-flex items-center rounded-md text-base uppercase whitespace-nowrap bg-[#ADCCD4AA] hover:bg-[#ADCCD4] font-extrabold text-black border-none"
             >
@@ -241,6 +314,9 @@ const ProductDetailsCard = ({ product_details }) => {
           </div>
         </div>
       </div>
+
+
+      
     </div>
     // </div>
   );
