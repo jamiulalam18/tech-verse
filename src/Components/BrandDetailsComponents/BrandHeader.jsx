@@ -11,7 +11,7 @@ const BrandHeader = ({ brand_name }) => {
   const [brandInfo, setBrandInfo] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/brandInfoByName/${brand_name}`)
+    fetch(`https://b8a10-brandshop-server-side-jamiulalam18.vercel.app/brandInfoByName/${brand_name}`)
       .then((response) => response.json())
       .then((data) => setBrandInfo(data));
   }, [brand_name]);

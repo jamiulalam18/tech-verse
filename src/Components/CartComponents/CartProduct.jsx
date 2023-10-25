@@ -1,13 +1,32 @@
 /* eslint-disable react/prop-types */
-// import { useContext, useEffect, useState } from "react";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-// import { CartContext } from "../../Provider/CartProvider";
+import { CartContext } from "../../Provider/CartProvider";
+import { successToast } from "./../Toasts/SuccessToast";
+import { AuthContext } from "../../Provider/AuthProvider";
+import { Button } from "flowbite-react";
+import { Modal } from "flowbite-react";
+import { errorToast } from "./../Toasts/ErrorToast";
+import { HiOutlineExclamationCircle } from "react-icons/hi";
 
-const CartProduct = ({ product }) => {
+const CartProduct = ({ product, setShopping_cart, shopping_cart }) => {
+  const [openModal, setOpenModal] = useState();
+  const props = { openModal, setOpenModal };
+
+  const handleConfirmation = (e) => {
+    e.preventDefault();
+    props.setOpenModal("pop-up");
+  };
+
+  const handleNoConfirmation = () => {
+    props.setOpenModal(undefined);
+    errorToast("Product is not removed!!");
+  };
+
   const { product_id, quantity } = product;
-
-  // const {cartItemPrice, setCartItemPrice}=useContext(CartContext);
+  const { user } = useContext(AuthContext);
+  const { cartItemQty, setCartItemQty, cartItemPrice, setCartItemPrice } =
+    useContext(CartContext);
 
   const [productInfo, setProductInfo] = useState({});
 
@@ -15,7 +34,9 @@ const CartProduct = ({ product }) => {
     productInfo;
 
   useEffect(() => {
-    fetch(`http://localhost:5000/products/${product_id}`)
+    fetch(
+      `https://b8a10-brandshop-server-side-jamiulalam18.vercel.app/products/${product_id}`
+    )
       .then((response) => response.json())
       .then((data) => {
         setProductInfo(data);
@@ -29,6 +50,44 @@ const CartProduct = ({ product }) => {
         // setTotal_price((total_price+(data.product_price*quantity).toFixed(2)));
       });
   }, [product_id]);
+
+  const handleProductRemove = () => {
+    // Check if there's an existing item with the same product_id
+    const existingItemIndex = shopping_cart.findIndex(
+      (item) => item.product_id === _id
+    );
+    const newCart = [
+      ...shopping_cart.slice(0, existingItemIndex),
+      ...shopping_cart.slice(existingItemIndex + 1),
+    ];
+    setCartItemQty(parseInt(cartItemQty) - parseInt(quantity));
+    setCartItemPrice(
+      (
+        parseFloat(cartItemPrice) -
+        parseFloat(parseInt(quantity) * parseFloat(product_price))
+      ).toFixed(2)
+    );
+    setShopping_cart(newCart);
+
+    // send data to the server
+    fetch(
+      `https://b8a10-brandshop-server-side-jamiulalam18.vercel.app/usersCartEmail/${user.email}`,
+      {
+        method: "PATCH",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify(newCart),
+      }
+    )
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+        if (data.modifiedCount > 0) {
+          successToast("Removed from Cart!!!");
+        }
+      });
+  };
 
   return (
     <div className="flex items-center hover:bg-gray-100 md:-mx-8 p-1 md:px-6 py-5">
@@ -45,12 +104,12 @@ const CartProduct = ({ product }) => {
           </Link>
 
           <span className="text-blue-800 text-xs">{brand_name}</span>
-          {/* <a
-            href="#"
-            className="font-semibold hover:text-red-500 text-gray-500 text-xs"
+          <a
+            onClick={handleConfirmation}
+            className="font-semibold hover:text-red-500 text-gray-500 text-xs hover:cursor-pointer"
           >
             Remove
-          </a> */}
+          </a>
         </div>
       </div>
       <div className="flex justify-center w-1/5">
@@ -77,6 +136,31 @@ const CartProduct = ({ product }) => {
           setCartItemPrice(cartItemPrice+product_price * quantity)
         } */}
       </span>
+
+      <Modal
+        show={props.openModal === "pop-up"}
+        size="md"
+        popup
+        onClose={() => props.setOpenModal(undefined)}
+      >
+        <Modal.Header />
+        <Modal.Body>
+          <div className="text-center">
+            <HiOutlineExclamationCircle className="mx-auto mb-4 h-14 w-14 text-gray-400 dark:text-gray-200" />
+            <h3 className="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">
+              Are you sure you want to remove this product?
+            </h3>
+            <div className="flex justify-center gap-4">
+              <Button color="failure" onClick={handleProductRemove}>
+                Yes, sure
+              </Button>
+              <Button color="gray" onClick={handleNoConfirmation}>
+                No, cancel
+              </Button>
+            </div>
+          </div>
+        </Modal.Body>
+      </Modal>
     </div>
   );
 };

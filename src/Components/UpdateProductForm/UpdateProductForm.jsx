@@ -67,7 +67,7 @@ const UpdateProductForm = ({ product }) => {
     console.log(updated_product);
 
     // send data to the server
-    fetch(`http://localhost:5000/products/${_id}`, {
+    fetch(`https://b8a10-brandshop-server-side-jamiulalam18.vercel.app/products/${_id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",

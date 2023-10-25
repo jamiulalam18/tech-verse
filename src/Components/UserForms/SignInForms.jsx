@@ -35,7 +35,7 @@ const SignInForms = () => {
       })
       .catch((error) => {
         console.log(error);
-        fetch(`http://localhost:5000/usersByEmail/${email}`)
+        fetch(`https://b8a10-brandshop-server-side-jamiulalam18.vercel.app/usersByEmail/${email}`)
           .then((response) => response.json())
           .then((data) => {
             console.log(data);

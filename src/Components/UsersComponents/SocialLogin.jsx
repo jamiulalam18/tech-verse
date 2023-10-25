@@ -17,7 +17,7 @@ const SocialLogin = () => {
         const email = result.user.email;
         const photo = result.user.photoURL;
 
-        fetch(`http://localhost:5000/usersByEmail/${email}`)
+        fetch(`https://b8a10-brandshop-server-side-jamiulalam18.vercel.app/usersByEmail/${email}`)
           .then((response) => response.json())
           .then((data) => {
             console.log(data);
@@ -31,7 +31,7 @@ const SocialLogin = () => {
                 shopping_cart: [],
               };
               // send data to the server
-              fetch("http://localhost:5000/users", {
+              fetch("https://b8a10-brandshop-server-side-jamiulalam18.vercel.app/users", {
                 method: "POST",
                 headers: {
                   "content-type": "application/json",
@@ -56,7 +56,7 @@ const SocialLogin = () => {
               shopping_cart: [],
             };
             // send data to the server
-            fetch("http://localhost:5000/users", {
+            fetch("https://b8a10-brandshop-server-side-jamiulalam18.vercel.app/users", {
               method: "POST",
               headers: {
                 "content-type": "application/json",

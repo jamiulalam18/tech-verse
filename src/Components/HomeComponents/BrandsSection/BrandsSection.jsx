@@ -4,7 +4,7 @@ import BrandsCard from "./BrandsCard";
 const BrandsSection = () => {
   const [brands, setBrands] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/brandInfo")
+    fetch("https://b8a10-brandshop-server-side-jamiulalam18.vercel.app/brandInfo")
       .then((response) => response.json())
       .then((data) => setBrands(data));
   }, []);

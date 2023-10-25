@@ -15,7 +15,7 @@ const BrandDetails = () => {
   // console.log(brandProducts.length);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/brandInfo/${id}`)
+    fetch(`https://b8a10-brandshop-server-side-jamiulalam18.vercel.app/brandInfo/${id}`)
       .then((response) => response.json())
       .then((data) => setBrandName(data.brand_name));
   }, [id]);

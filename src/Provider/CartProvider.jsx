@@ -12,7 +12,7 @@ const CartProvider = ({ children }) => {
 
   useEffect(() => {
     if (user?.email) {
-      fetch(`http://localhost:5000/usersByEmail/${user?.email}`)
+      fetch(`https://b8a10-brandshop-server-side-jamiulalam18.vercel.app/usersByEmail/${user?.email}`)
         .then((response) => response.json())
         .then((data) => {
           const shopping_cart = data.shopping_cart;

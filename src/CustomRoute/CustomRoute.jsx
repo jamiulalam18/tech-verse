@@ -37,14 +37,8 @@ const CustomRoute = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: ({ params }) => {
-          // return [fetch(`http://localhost:5000/brandDetails/${params.id}`),params.id];
-          return fetch(`http://localhost:5000/brandDetails/${params.id}`);
+          return fetch(`https://b8a10-brandshop-server-side-jamiulalam18.vercel.app/brandDetails/${params.id}`);
 
-          // const [brandProducts, brand_id] = Promise.all([
-          //   fetch(`http://localhost:5000/brandDetails/${params.id}`),
-          //   params.id,
-          // ]);
-          // return {brandProducts,brand_id}
         },
       },
       {
@@ -63,7 +57,7 @@ const CustomRoute = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: ({ params }) => {
-          return fetch(`http://localhost:5000/products/${params.id}`);
+          return fetch(`https://b8a10-brandshop-server-side-jamiulalam18.vercel.app/products/${params.id}`);
         },
       },
       {
@@ -74,7 +68,7 @@ const CustomRoute = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: ({ params }) => {
-          return fetch(`http://localhost:5000/products/${params.id}`);
+          return fetch(`https://b8a10-brandshop-server-side-jamiulalam18.vercel.app/products/${params.id}`);
         },
       },
       {
@@ -84,9 +78,7 @@ const CustomRoute = createBrowserRouter([
             <UserCart></UserCart>
           </PrivateRoute>
         ),
-        // loader: ({ params }) => {
-        //   return fetch(`http://localhost:5000/users/${params.id}`);
-        // },
+        
       },
     ],
   },

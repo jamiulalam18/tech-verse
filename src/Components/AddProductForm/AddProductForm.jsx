@@ -33,7 +33,7 @@ const AddProductForm = () => {
     console.log(new_product);
 
     // send data to the server
-    fetch("http://localhost:5000/products", {
+    fetch("https://b8a10-brandshop-server-side-jamiulalam18.vercel.app/products", {
       method: "POST",
       headers: {
         "content-type": "application/json",

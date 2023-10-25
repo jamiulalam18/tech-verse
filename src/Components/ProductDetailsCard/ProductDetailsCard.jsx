@@ -37,12 +37,8 @@ const ProductDetailsCard = ({ product_details }) => {
     setQty(parseInt(e.currentTarget.value));
   };
   const handleAddToCart = () => {
-    console.log(qty);
-    console.log(user.email);
-    // const test_mail = "michael.anderson@example.com";
-    console.log(_id);
-    fetch(`http://localhost:5000/usersByEmail/${user.email}`)
-    // fetch(`http://localhost:5000/usersByEmail/${test_mail}`)
+    
+    fetch(`https://b8a10-brandshop-server-side-jamiulalam18.vercel.app/usersByEmail/${user.email}`)
       .then((response) => response.json())
       .then((data) => {
         const shopping_cart = data.shopping_cart;
@@ -64,7 +60,7 @@ const ProductDetailsCard = ({ product_details }) => {
         }
 
         // send data to the server
-        fetch(`http://localhost:5000/usersCart/${data._id}`, {
+        fetch(`https://b8a10-brandshop-server-side-jamiulalam18.vercel.app/usersCart/${data._id}`, {
           method: "PATCH",
           headers: {
             "content-type": "application/json",

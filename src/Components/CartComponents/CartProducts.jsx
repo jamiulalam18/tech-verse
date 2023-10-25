@@ -10,7 +10,7 @@ const CartProducts = () => {
   const [shopping_cart,setShopping_cart]=useState();
 
   useEffect(() => {
-    fetch(`http://localhost:5000/usersByEmail/${user?.email}`)
+    fetch(`https://b8a10-brandshop-server-side-jamiulalam18.vercel.app/usersByEmail/${user?.email}`)
         .then((response) => response.json())
         .then((data) => {
           const shopping_cart = data.shopping_cart;
@@ -48,6 +48,8 @@ const CartProducts = () => {
               <CartProduct
                 key={product.product_id}
                 product={product}
+                setShopping_cart={setShopping_cart}
+                shopping_cart={shopping_cart}
               ></CartProduct>
             ))}
 
