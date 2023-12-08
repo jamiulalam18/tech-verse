@@ -1,18 +1,20 @@
+Personal Project to explore ReactJS, NodeJS and MongoDB.
+
 # Tech Verse
-SHOP A TO Z HERE...
+A simple e-commerce website.
 
 ## Live Link
-[https://techverse-jamiulalam18.netlify.app/](https://techverse-jamiulalam18.netlify.app/)
+Live Link: [https://techverse-jamiulalam18.netlify.app/](https://techverse-jamiulalam18.netlify.app/)
 
 #Client Git: 
-https://github.com/programming-hero-web-course-4/b8a10-brandshop-client-side-jamiulalam18
+https://github.com/jamiulalam18/tech-verse
 
 #Server Git: 
-https://github.com/programming-hero-web-course-4/b8a10-brandshop-server-side-jamiulalam18
+https://github.com/jamiulalam18/tech-verse-server
 
 # Features of the site:
 1. React based E-commerce website
 2. Viewing and adding products to cart
 3. Firebase based user authentication
 4. MongoDB based database
-5. nodejs based backend
+5. Nodejs based backend
